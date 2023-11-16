@@ -12,7 +12,11 @@ All of my books on Packt's website: https://subscription.packtpub.com/search?que
 
 My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark_J_Price
 
+![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
+
 ## Chapters and code solutions
+
+> **Warning!** Chapters subject to change before publication.
 
 **Introduction**
 - Chapter 1 Introducing Tools and Skills for .NET Professionals [code/Chapter01](code/Chapter01)
