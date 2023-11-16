@@ -42,16 +42,16 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 **Deployment**
 - Chapter 15 Hosting with Docker and Containerization: [code/Chapter15](code/Chapter15)
-- Chapter 16 Continuous Integration and Delivery with Deployment Pipelines: [code/Chapter16](code/Chapter16)
+- Chapter 16 Cloud-Native Development Using .NET Aspire: [code/Chapter16](code/Chapter16)
+- Chapter 17 Continuous Integration and Delivery with Deployment Pipelines: [code/Chapter17](code/Chapter17)
 
 **Design**
-- Chapter 17 Exploring Common Design Patterns for .NET: [code/Chapter17](code/Chapter17)
-- Chapter 18 Implementing Common Algorithms and Data Structures: [code/Chapter18](code/Chapter18)
-- Chapter 19 Introducing Software Architecture: [code/Chapter19](code/Chapter19)
+- Chapter 18 Exploring Common Design Patterns for .NET: [code/Chapter18](code/Chapter18)
+- Chapter 19 Implementing Common Algorithms and Data Structures: [code/Chapter19](code/Chapter19)
+- Chapter 20 Introducing Software Architecture: [code/Chapter20](code/Chapter20)
 
 **Interviews**
-- Chapter 20 Preparing for an Interview: [code/Chapter20](code/Chapter20)
-- Chapter 21 Sample Interview Questions: [code/Chapter21](code/Chapter21)
+- Chapter 21 Preparing for an Interview: [code/Chapter20](code/Chapter20)
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
 
