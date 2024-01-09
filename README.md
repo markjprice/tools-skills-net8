@@ -12,8 +12,6 @@ All of my books on Packt's website: https://subscription.packtpub.com/search?que
 
 My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark_J_Price
 
-![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
-
 ## Chapters and code solutions
 
 > **Warning!** Chapters subject to change before publication.
@@ -24,7 +22,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
 - Chapter 3 Source Code Control and Management Using Git: [code/Chapter03](code/Chapter03)
-- Chapter 4 Debugging Tools and Techniques: [code/Chapter04](code/Chapter04)
+- Chapter 4 Debugging Tools and Observability: [code/Chapter04](code/Chapter04)
 - Chapter 5 Tools for Memory Troubleshooting: [code/Chapter05](code/Chapter05)
 
 **Skills**
@@ -35,7 +33,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 **Testing**
 - Chapter 10 Dependency Injection, Containers and Service Lifetime: [code/Chapter10](code/Chapter10)
-- Chapter 11 Unit Testing and Mocking [code/Chapter11](code/Chapter11)
+- Chapter 11 Unit Testing and Mocking: [code/Chapter11](code/Chapter11)
 - Chapter 12 Integration and System Testing: [code/Chapter12](code/Chapter12)
 - Chapter 13 Benchmarking Performance, Load, and Stress Testing: [code/Chapter13](code/Chapter13)
 - Chapter 14 Testing Websites, Services, and Mobile Apps: [code/Chapter14](code/Chapter14)
@@ -49,8 +47,6 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 18 Exploring Common Design Patterns for .NET: [code/Chapter18](code/Chapter18)
 - Chapter 19 Implementing Common Algorithms and Data Structures: [code/Chapter19](code/Chapter19)
 - Chapter 20 Introducing Software Architecture: [code/Chapter20](code/Chapter20)
-
-**Interviews**
 - Chapter 21 Preparing for an Interview: [code/Chapter20](code/Chapter20)
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
@@ -78,6 +74,8 @@ Corrections for typos and other mistakes and improvements like refactoring code.
 - [Book Links](docs/book-links.md)
 - [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 - [First edition's support for .NET 9](docs/dotnet9.md)
+
+![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
 
 ## Microsoft Certifications
 
