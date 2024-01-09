@@ -51,20 +51,18 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
 
-[Figures for all of the code solution folders](docs/ch01-solution-folders.md).
-
-Visual Studio Code now has an extension named **C# Dev Kit** that includes a solution explorer so it can better work with Visual Studio 2022 solution files. Visual Studio 2022 for Windows, Visual Studio 2022 for Mac, and Visual Studio Code + C# Dev Kit can now use the same code solution files and projects for each chapter, found here: [/code](/code). 
+Visual Studio Code now has an extension named **C# Dev Kit** that includes a solution explorer so it can better work with Visual Studio solution files. Visual Studio, JetBrains Rider, and Visual Studio Code + C# Dev Kit can now use the same code solution files and projects for each chapter, found here: [/code](/code). 
 
 > **For Visual Studio Code:** To use the chapter solution files with Visual Studio Code, install the **C# Dev Kit** extension. Then in Visual Studio Code, open the `ChapterNN` folder that contains a `ChapterNN.sln` solution file and wait for the **SOLUTION EXPLORER** pane to appear at the bottom of the **EXPLORER**. You can drag and drop to reorder the panes to put **SOLUTION EXPLORER** at the top. Learn more about C# Dev Kit at the following link: https://devblogs.microsoft.com/visualstudio/announcing-csharp-dev-kit-for-visual-studio-code/
 
-> **Warning!** If you use both Visual Studio 2022 and Visual Studio Code to open these solutions, be aware that the build process can conflict. This is because Visual Studio 2022 has its own non-standard build server that is different from the standard build server used by .NET SDK CLI. My recommendation is to only have a solution open in one code editor at any time. You should also clean the solutions between opening in different code editors. For example, after closing the solution in one code editor, I delete the `bin` and `obj` folders before then opening in a different code editor.
+> **Warning!** If you use multiple code editors to open these solutions, be aware that the build process can conflict. This is because Visual Studio has its own non-standard build server that is different from the standard build server used by .NET SDK CLI. My recommendation is to only have a solution open in one code editor at any time. You should also clean the solutions between opening in different code editors. For example, after closing the solution in one code editor, I delete the `bin` and `obj` folders before then opening in a different code editor.
 
 ## Bonus content
 
 The appendix and color figures are available to download as PDFs:
 
-- Appendix A, Answers to the Test Your Knowledge Questions: coming May 2024.
-- Color images of the screenshots/diagrams used in this book: coming May 2024.
+- Appendix A, Answers to the Test Your Knowledge Questions: coming Summer 2024.
+- Color images of the screenshots/diagrams used in this book: coming Summer 2024.
 
 ## Important
 
@@ -74,8 +72,6 @@ Corrections for typos and other mistakes and improvements like refactoring code.
 - [Book Links](docs/book-links.md)
 - [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 - [First edition's support for .NET 9](docs/dotnet9.md)
-
-![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
 
 ## Microsoft Certifications
 
@@ -107,3 +103,5 @@ Podcast interviews with me:
 Written interviews with me:
 - [C# 9 and .NET 5: Book Review and Q&A](https://www.infoq.com/articles/book-interview-mark-price/?itm_source=infoq&itm_campaign=user_page&itm_medium=link)
 - [Q&A with Episerver's Mark J. Price, author of C# 9 and .NET 5 - Modern Cross-Platform Development](https://www.episerver.com/articles/q-and-a-with-mark-price)
+
+![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
