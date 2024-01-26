@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns=
+    "http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Configure console for culture</Title>
+      <Description>Define a static method for Program to configure the culture for the console.</Description>
+      <Author>Mark J. Price</Author>
+      <Shortcut>ccc</Shortcut>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import>
+          <Namespace>System.Globalization</Namespace>
+        </Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>defaultCulture</ID>
+          <Default>en-US</Default>
+          <ToolTip>The default culture when none is specified when calling the method.</ToolTip>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp" Delimiter="~">
+        <![CDATA[partial class Program
+{
+  static void ConfigureConsole(string culture = "~defaultCulture~",
+    bool useComputerCulture = false)
+  {
+    // To enable Unicode characters like Euro symbol in the console.
+    OutputEncoding = System.Text.Encoding.UTF8;
+
+    if (!useComputerCulture)
+    {
+      CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo(culture);
+    }
+
+    WriteLine($"CurrentCulture: {CultureInfo.CurrentCulture.DisplayName}");
+  }
+}]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
