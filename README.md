@@ -21,7 +21,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
-- Chapter 3 Source Code Control and Management Using Git: [code/Chapter03](code/Chapter03)
+- Chapter 3 Source Code Management Using Git: [code/Chapter03](code/Chapter03)
 - Chapter 4 Debugging Tools and Observability: [code/Chapter04](code/Chapter04)
 - Chapter 5 Tools for Memory Troubleshooting: [code/Chapter05](code/Chapter05)
 
