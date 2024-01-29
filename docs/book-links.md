@@ -9,7 +9,7 @@
   - [Visual Studio 2022](#visual-studio-2022-1)
   - [Visual Studio Code](#visual-studio-code-1)
   - [JetBrains Rider](#jetbrains-rider-1)
-- [Chapter 3 - Source Code Control and Management Using Git](#chapter-3---source-code-control-and-management-using-git)
+- [Chapter 3 - Source Code Management Using Git](#chapter-3---source-code-management-using-git)
 - [Chapter 4 - Debugging Tools and Observability](#chapter-4---debugging-tools-and-observability)
 - [Chapter 5 - Tools for Memory Troubleshooting](#chapter-5---tools-for-memory-troubleshooting)
 - [Chapter 6 - Documenting Your Code](#chapter-6---documenting-your-code)
@@ -90,7 +90,7 @@
 - [JetBrains Rider](https://www.jetbrains.com/rider/)
 - [Rider documentation](https://www.jetbrains.com/help/rider/Introduction.html)
 
-# Chapter 3 - Source Code Control and Management Using Git
+# Chapter 3 - Source Code Management Using Git
 
 - [Download Git](https://git-scm.com/download)
 - [Download GitHub Desktop](https://desktop.github.com)
