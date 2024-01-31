@@ -26,7 +26,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 5 Tools for Memory Troubleshooting: [code/Chapter05](code/Chapter05)
 
 **Skills**
-- Chapter 6 Documenting Your Code: [code/Chapter06](code/Chapter06)
+- Chapter 6 Documenting Your Code, APIs, and Services: [code/Chapter06](code/Chapter06)
 - Chapter 7 Observing and Modifying Code Execution Dynamically: [code/Chapter07](code/Chapter07)
 - Chapter 8 Protecting Data and Apps Using Cryptography: [code/Chapter08](code/Chapter08)
 - Chapter 9 Building a Custom GPT-based Chat Service: [code/Chapter09](code/Chapter09)
