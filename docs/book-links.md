@@ -12,7 +12,7 @@
 - [Chapter 3 - Source Code Management Using Git](#chapter-3---source-code-management-using-git)
 - [Chapter 4 - Debugging Tools and Observability](#chapter-4---debugging-tools-and-observability)
 - [Chapter 5 - Tools for Memory Troubleshooting](#chapter-5---tools-for-memory-troubleshooting)
-- [Chapter 6 - Documenting Your Code](#chapter-6---documenting-your-code)
+- [Chapter 6 - Documenting Your Code, APIs, and Services](#chapter-6---documenting-your-code-apis-and-services)
   - [Documenting web services](#documenting-web-services)
 - [Chapter 7 - Observing and Modifying Code Execution Dynamically](#chapter-7---observing-and-modifying-code-execution-dynamically)
 - [Chapter 8 - Protecting Data and Apps Using Cryptography](#chapter-8---protecting-data-and-apps-using-cryptography)
@@ -102,7 +102,7 @@
 # Chapter 5 - Tools for Memory Troubleshooting
 
 
-# Chapter 6 - Documenting Your Code
+# Chapter 6 - Documenting Your Code, APIs, and Services
 
 ## Documenting web services
 - [Swagger](https://swagger.io/)
