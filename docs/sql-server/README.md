@@ -20,9 +20,7 @@
   - [Setting the user and password for SQL Server authentication](#setting-the-user-and-password-for-sql-server-authentication)
   - [Configuring Entity Framework Core as a service](#configuring-entity-framework-core-as-a-service)
 
-# Chapter 10 - Working with Data Using Entity Framework Core
-
-## Introducing SQL Server for Windows
+# Introducing SQL Server for Windows
 
 Microsoft offers various editions of its popular and capable SQL Server product 
 for Windows, Linux, and Docker containers. We will use a free version that can 
@@ -30,9 +28,9 @@ run standalone, known as SQL Server Developer Edition. You can also use the
 Express edition or the free SQL Server LocalDB edition that can be installed 
 with Visual Studio for Windows.
 
-> If you do not have Windows, then you can use a version of SQL Server that runs in a Linux container on Docker. To find out how, please read the page about [Azure SQL Edge](https://github.com/markjprice/apps-services-net8/blob/main/docs/ch02-sql-edge.md) from the companion book, *Apps and Services with .NET 8*.
+> If you do not have Windows, then you can use a version of SQL Server that runs in a Linux container on Docker. To find out how, please read the page about [Azure SQL Edge](../ch02-sql-edge.md).
 
-## Downloading and installing SQL Server
+# Downloading and installing SQL Server
 
 You can download SQL Server editions from the following link:
 https://www.microsoft.com/en-us/sql-server/sql-server-downloads
@@ -61,7 +59,7 @@ https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 18.	Run the installer and click **Install**.
 19.	When the installer has finished, click **Restart** if needed or **Close**.
 
-## SQL Server databases
+# SQL Server databases
 
 When you work with SQL Server it can be useful to know that as well as a **user database** like `Northwind`, there are **system databases** like `master`. Never delete a system database! A fresh SQL Server installation will have four system databases created, as shown in the following list:
 
@@ -72,7 +70,7 @@ When you work with SQL Server it can be useful to know that as well as a **user 
 
 > **More Information**: You can learn more about system databases at the following link: https://learn.microsoft.com/en-us/sql/relational-databases/databases/system-databases.
 
-## SQL Server objects
+# SQL Server objects
 
 Objects in SQL Server have up to four parts to their unique address: `<server>.<database>.<schema>.<object>`. Like a folder structure, how much of this address is needed to identify an object depends on context. If you are in a database, then you only need `<schema>.<object>`.
 
@@ -83,11 +81,11 @@ Objects in SQL Server have up to four parts to their unique address: `<server>.<
 
 > **More Information**: You can learn more about database identifiers at the following link: https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-identifiers.
 
-## Creating the Northwind sample database for SQL Server
+# Creating the Northwind sample database for SQL Server
 
 Now we can run a database script to create the Northwind sample database:
 
-1.	If you have not previously downloaded or cloned the GitHub repository for this book, then do so now using the following link: https://github.com/markjprice/cs12dotnet8/.
+1.	If you have not previously downloaded or cloned the GitHub repository for this book, then do so now using the following link: https://github.com/markjprice/tools-skills-net8/.
 2.	Copy the script to create the Northwind database for SQL Server from the following path in your local Git repository: `/sql-scripts/Northwind4SQLServer.sql` into the `WorkingWithEFCore` folder.
 3.	Start **SQL Server Management Studio**.
 4.	In the **Connect to Server** dialog, for **Server name**, enter `.` (a dot) meaning the local computer name, and then click **Connect**. If you had to create a named instance, like `csdotnetbook`, then enter `.\csdotnetbook`
