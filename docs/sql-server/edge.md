@@ -18,7 +18,7 @@ The Docker image we will use has Azure SQL Edge based on Ubuntu 18.4. It is supp
 1.	Install **Docker Desktop** from the following link: https://docs.docker.com/engine/install/.
 2.	Start **Docker Desktop**, as shown in Figure 2A.1:
 
-![Docker Desktop on Windows](assets/B19587_02A_01.png)
+![Docker Desktop on Windows](B19587_02A_01.png)
 *Figure 2A.1: Docker Desktop v4.21.1 (July 2023) on Windows*
 
 3.	At the command prompt or terminal, pull down the latest container image for Azure SQL Edge, as shown in the following command:
@@ -71,7 +71,7 @@ docker run --cap-add SYS_PTRACE -e 'ACCEPT_EULA=1' -e 'MSSQL_SA_PASSWORD=s3cret-
 2.	If your operating system firewall blocks access, then allow access.
 3.	In **Docker Desktop**, in the **Containers** section, confirm that the image is running, as shown in *Figure 2A.2*:
 
-![Azure SQL Edge running in Docker Desktop on an Apple Silicon Mac](assets/B19587_02A_02.png)
+![Azure SQL Edge running in Docker Desktop on an Apple Silicon Mac](B19587_02A_02.png)
 *Figure 2A.2: Azure SQL Edge running in Docker Desktop on an Apple Silicon Mac*
 
 9.	At the command prompt or terminal, ask Docker to list all containers, both running and stopped, as shown in the following command:
@@ -103,7 +103,7 @@ Some differences in the database connection string:
 2.  In the mini-toolbar, click the **Connect to Database...** button.
 2.  Enter the connection details, as shown in *Figure 2A.3*:
 
-![Connecting to your Azure SQL Edge server from Visual Studio 2022](assets/B19587_02A_03.png)
+![Connecting to your Azure SQL Edge server from Visual Studio 2022](B19587_02A_03.png)
 *Figure 2A.3: Connecting to your Azure SQL Edge server from Visual Studio 2022*
 
 ## Connecting from Visual Studio Code
@@ -112,47 +112,47 @@ Some differences in the database connection string:
 2. In the **SQL** extension, click **Add Connection...**.
 3. Enter the server name `tcp:127.0.0.1,1433`, as shown in *Figure 2A.4*:
 
-![Specifying the server name](assets/B19587_02A_04.png)
+![Specifying the server name](B19587_02A_04.png)
 *Figure 2A.4: Specifying the server name*
 
 4. Leave the database name blank by pressing *Enter*, as shown in *Figure 2A.5*:
 
-![Specifying the database name (leave blank)](assets/B19587_02A_05.png)
+![Specifying the database name (leave blank)](B19587_02A_05.png)
 *Figure 2A.5: Specifying the database name (leave blank)*
 
 5. Select **SQL Login** so that we can enter a user ID and password, as shown in *Figure 2A.6*:
 
-![Choosing SQL Login to authenticate](assets/B19587_02A_06.png)
+![Choosing SQL Login to authenticate](B19587_02A_06.png)
 *Figure 2A.6: Choosing SQL Login to authenticate*
 
 6. Enter the user ID `sa`, as shown in *Figure 2A.7*:
 
-![Entering the user ID of sa](assets/B19587_02A_07.png)
+![Entering the user ID of sa](B19587_02A_07.png)
 *Figure 2A.7: Entering the user ID of sa*
 
 7. Enter the password `s3cret-Ninja`, as shown in *Figure 2A.8*:
 
-![Entering the password](assets/B19587_02A_08.png)
+![Entering the password](B19587_02A_08.png)
 *Figure 2A.8: Entering the password*
 
 8. Select **Yes** to save the password for the future, as shown in *Figure 2A.9*:
 
-![Saving the password for future use](assets/B19587_02A_09.png)
+![Saving the password for future use](B19587_02A_09.png)
 *Figure 2A.9: Saving the password for future use*
 
 9. Enter a connection profile name `Azure SQL Edge in Docker`, as shown in *Figure 2A.10*:
 
-![Naming the connection](assets/B19587_02A_10.png)
+![Naming the connection](B19587_02A_10.png)
 *Figure 2A.10: Naming the connection*
 
 10. Click **Enable Trust Server Certificate**, as shown in *Figure 2A.11*:
 
-![Trusting the local developer certificate](assets/B19587_02A_11.png)
+![Trusting the local developer certificate](B19587_02A_11.png)
 *Figure 2A.11: Trusting the local developer certificate*
 
 11. Note the success notification message, as shown in *Figure 2A.12*:
 
-![Success notification](assets/B19587_02A_12.png)
+![Success notification](B19587_02A_12.png)
 *Figure 2A.12: Success notification*
 
 # Creating the Northwind database using a SQL script
@@ -167,7 +167,7 @@ Some differences in the database connection string:
 4.  Expand **Databases**, expand **Northwind** and then expand **Tables**.
 5.  Note that 13 tables have been created, for example, `Categories`, `Customers`, and `Products`. Also note that dozens of views and stored procedures have also been created.
 
-![Northwind database created by SQL script in Visual Studio Code](assets/B19587_02A_14.png)
+![Northwind database created by SQL script in Visual Studio Code](B19587_02A_14.png)
 *Figure 2A.14: Northwind database created by SQL script in Visual Studio Code*
 
 You now have a running instance of Azure SQL Edge containing the Northwind database that you can connect to from a console app.
@@ -210,5 +210,5 @@ If entering a command at the prompt or terminal fails for you, try following the
         - Enter `MSSQL_SA_PASSWORD` with value `s3cret-Ninja`.
 4. Click **Run**.
 
-![Running a container for Azure SQL Edge with the user interface](assets/B19587_02A_15.png)
+![Running a container for Azure SQL Edge with the user interface](B19587_02A_15.png)
 *Figure 2A.15: Running a container for Azure SQL Edge with the user interface*
