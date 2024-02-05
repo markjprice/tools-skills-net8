@@ -77,7 +77,7 @@ Objects in SQL Server have up to four parts to their unique address: `<server>.<
 Now we can run a database script to create the Northwind sample database:
 
 1.	If you have not previously downloaded or cloned the GitHub repository for this book, then do so now using the following link: https://github.com/markjprice/tools-skills-net8/.
-2.	Copy the script to create the Northwind database for SQL Server from the following path in your local Git repository: `/sql-scripts/Northwind4SQLServer.sql` into a working folder.
+2.	Copy the script to create the Northwind database for SQL Server from the following path in your local Git repository: [/scripts/sql-scripts/Northwind4SQLServer.sql](../../scripts/sql-scripts/Northwind4SQLServer.sql) into a working folder.
 3.	Start **SQL Server Management Studio**.
 4.	In the **Connect to Server** dialog, for **Server name**, enter `.` (a dot) meaning the local computer name, and then click **Connect**. If you had to create a named instance, like `tools-skills-net8`, then enter `.\tools-skills-net8`
 5.	Navigate to **File** | **Open** | **File...**.
