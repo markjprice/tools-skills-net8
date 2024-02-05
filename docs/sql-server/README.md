@@ -19,7 +19,7 @@ run standalone, known as SQL Server Developer Edition. You can also use the
 Express edition or the free SQL Server LocalDB edition that can be installed 
 with Visual Studio for Windows.
 
-> If you do not have Windows, then you can use a version of SQL Server that runs in a Linux container on Docker. To find out how, please read the page about [Azure SQL Edge](../ch02-sql-edge.md).
+> If you do not have Windows, then you can use a version of SQL Server that runs in a Linux container on Docker. To find out how, please read the page about [Azure SQL Edge](edge.md).
 
 # Downloading and installing SQL Server
 
