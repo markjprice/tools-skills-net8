@@ -44,10 +44,9 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 17 Continuous Integration and Delivery with Deployment Pipelines: [code/Chapter17](code/Chapter17)
 
 **Design**
-- Chapter 18 Exploring Common Design Patterns for .NET: [code/Chapter18](code/Chapter18)
-- Chapter 19 Implementing Common Algorithms and Data Structures: [code/Chapter19](code/Chapter19)
-- Chapter 20 Introducing Software Architecture: [code/Chapter20](code/Chapter20)
-- Chapter 21 Preparing for an Interview: [code/Chapter20](code/Chapter20)
+- Chapter 18 Design Patterns, Algorithms, and Data Structures: [code/Chapter18](code/Chapter18)
+- Chapter 19 Software Architecture for .NET Developers: [code/Chapter19](code/Chapter19)
+- Chapter 20 Preparing for an Interview: [code/Chapter20](code/Chapter20)
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
 
