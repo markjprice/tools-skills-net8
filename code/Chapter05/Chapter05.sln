@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointersApp", "PointersApp\PointersApp.csproj", "{5A78DC29-A033-43FC-AF70-89698CC842F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A78DC29-A033-43FC-AF70-89698CC842F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A78DC29-A033-43FC-AF70-89698CC842F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A78DC29-A033-43FC-AF70-89698CC842F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A78DC29-A033-43FC-AF70-89698CC842F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D12F878B-8B7A-4D2F-AE52-7FA87758A53A}
+	EndGlobalSection
+EndGlobal

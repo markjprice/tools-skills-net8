@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: PacktLibrary.Utility
+  commentId: T:PacktLibrary.Utility
+  id: Utility
+  parent: PacktLibrary
+  children:
+  - PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)
+  - PacktLibrary.Utility.CurrentConsoleCulture
+  - PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)
+  langs:
+  - csharp
+  - vb
+  name: Utility
+  nameWithType: Utility
+  fullName: PacktLibrary.Utility
+  type: Class
+  source:
+    id: Utility
+    path: C:\tools-skills-net8\Chapter06\PacktLibrary\Utility.cs
+    startLine: 14
+  assemblies:
+  - PacktLibrary
+  namespace: PacktLibrary
+  summary: >-
+    This class contains utility methods like <code>ConfigureConsole</code>.
+
+    <p>
+      Sets console encoding to UTF-8 to support special characters like Euro currency symbol, 
+      and sets the current culture to one of the following:
+      <ul><li>A default culture of <b>US English</b> (<code>en-US</code>).</li><li>A specified culture code like <i>French in France</i> (<code>fr-FR</code>).</li><li>The <u>local</u> computer's culture.</li></ul>
+    </p>
+  example: []
+  syntax:
+    content: public class Utility
+    content.vb: Public Class Utility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: PacktLibrary.Utility.CurrentConsoleCulture
+  commentId: M:PacktLibrary.Utility.CurrentConsoleCulture
+  id: CurrentConsoleCulture
+  parent: PacktLibrary.Utility
+  langs:
+  - csharp
+  - vb
+  name: CurrentConsoleCulture()
+  nameWithType: Utility.CurrentConsoleCulture()
+  fullName: PacktLibrary.Utility.CurrentConsoleCulture()
+  type: Method
+  source:
+    id: CurrentConsoleCulture
+    path: C:\tools-skills-net8\Chapter06\PacktLibrary\Utility.cs
+    startLine: 20
+  assemblies:
+  - PacktLibrary
+  namespace: PacktLibrary
+  summary: Gets the current console culture in its native language.
+  example: []
+  syntax:
+    content: public static string CurrentConsoleCulture()
+    return:
+      type: System.String
+      description: The current console culture as a string.
+    content.vb: Public Shared Function CurrentConsoleCulture() As String
+  overload: PacktLibrary.Utility.CurrentConsoleCulture*
+- uid: PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)
+  commentId: M:PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)
+  id: ConfigureConsole(System.String,System.Boolean)
+  parent: PacktLibrary.Utility
+  langs:
+  - csharp
+  - vb
+  name: ConfigureConsole(string, bool)
+  nameWithType: Utility.ConfigureConsole(string, bool)
+  fullName: PacktLibrary.Utility.ConfigureConsole(string, bool)
+  type: Method
+  source:
+    id: ConfigureConsole
+    path: C:\tools-skills-net8\Chapter06\PacktLibrary\Utility.cs
+    startLine: 31
+  assemblies:
+  - PacktLibrary
+  namespace: PacktLibrary
+  summary: >-
+    Configure the console to support Unicode characters and set the culture to en-US (by default), or to a specified culture, or to the local computer culture.
+
+    <p>This method calls the <xref href="PacktLibrary.Utility.CurrentConsoleCulture" data-throw-if-not-resolved="false"></xref> method to output the current culture.</p>
+  example: []
+  syntax:
+    content: public static void ConfigureConsole(string culture = "en-US", bool useComputerCulture = false)
+    parameters:
+    - id: culture
+      type: System.String
+      description: Set to an ISO culture code like fr-FR, en-GB, or es-AR.
+    - id: useComputerCulture
+      type: System.Boolean
+      description: Set to true to change the culture to the local computer's culture.
+    content.vb: Public Shared Sub ConfigureConsole(culture As String = "en-US", useComputerCulture As Boolean = False)
+  overload: PacktLibrary.Utility.ConfigureConsole*
+  nameWithType.vb: Utility.ConfigureConsole(String, Boolean)
+  fullName.vb: PacktLibrary.Utility.ConfigureConsole(String, Boolean)
+  name.vb: ConfigureConsole(String, Boolean)
+- uid: PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)
+  commentId: M:PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)
+  id: WriteLineInColor(System.String,System.ConsoleColor)
+  parent: PacktLibrary.Utility
+  langs:
+  - csharp
+  - vb
+  name: WriteLineInColor(string, ConsoleColor)
+  nameWithType: Utility.WriteLineInColor(string, ConsoleColor)
+  fullName: PacktLibrary.Utility.WriteLineInColor(string, System.ConsoleColor)
+  type: Method
+  source:
+    id: WriteLineInColor
+    path: C:\tools-skills-net8\Chapter06\PacktLibrary\Utility.cs
+    startLine: 50
+  assemblies:
+  - PacktLibrary
+  namespace: PacktLibrary
+  summary: Write a message to the console in the specified color.
+  example: []
+  syntax:
+    content: public static void WriteLineInColor(string text, ConsoleColor color)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text of the message.
+    - id: color
+      type: System.ConsoleColor
+      description: The color of the text.
+    content.vb: Public Shared Sub WriteLineInColor(text As String, color As ConsoleColor)
+  overload: PacktLibrary.Utility.WriteLineInColor*
+  nameWithType.vb: Utility.WriteLineInColor(String, ConsoleColor)
+  fullName.vb: PacktLibrary.Utility.WriteLineInColor(String, System.ConsoleColor)
+  name.vb: WriteLineInColor(String, ConsoleColor)
+references:
+- uid: PacktLibrary
+  commentId: N:PacktLibrary
+  href: PacktLibrary.html
+  name: PacktLibrary
+  nameWithType: PacktLibrary
+  fullName: PacktLibrary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PacktLibrary.Utility.CurrentConsoleCulture*
+  commentId: Overload:PacktLibrary.Utility.CurrentConsoleCulture
+  href: PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture
+  name: CurrentConsoleCulture
+  nameWithType: Utility.CurrentConsoleCulture
+  fullName: PacktLibrary.Utility.CurrentConsoleCulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: PacktLibrary.Utility.CurrentConsoleCulture
+  commentId: M:PacktLibrary.Utility.CurrentConsoleCulture
+  href: PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture
+  name: CurrentConsoleCulture()
+  nameWithType: Utility.CurrentConsoleCulture()
+  fullName: PacktLibrary.Utility.CurrentConsoleCulture()
+  spec.csharp:
+  - uid: PacktLibrary.Utility.CurrentConsoleCulture
+    name: CurrentConsoleCulture
+    href: PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: PacktLibrary.Utility.CurrentConsoleCulture
+    name: CurrentConsoleCulture
+    href: PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture
+  - name: (
+  - name: )
+- uid: PacktLibrary.Utility.ConfigureConsole*
+  commentId: Overload:PacktLibrary.Utility.ConfigureConsole
+  href: PacktLibrary.Utility.html#PacktLibrary_Utility_ConfigureConsole_System_String_System_Boolean_
+  name: ConfigureConsole
+  nameWithType: Utility.ConfigureConsole
+  fullName: PacktLibrary.Utility.ConfigureConsole
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: PacktLibrary.Utility.WriteLineInColor*
+  commentId: Overload:PacktLibrary.Utility.WriteLineInColor
+  href: PacktLibrary.Utility.html#PacktLibrary_Utility_WriteLineInColor_System_String_System_ConsoleColor_
+  name: WriteLineInColor
+  nameWithType: Utility.WriteLineInColor
+  fullName: PacktLibrary.Utility.WriteLineInColor
+- uid: System.ConsoleColor
+  commentId: T:System.ConsoleColor
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.consolecolor
+  name: ConsoleColor
+  nameWithType: ConsoleColor
+  fullName: System.ConsoleColor

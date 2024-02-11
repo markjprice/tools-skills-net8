@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: PacktLibrary
+  commentId: N:PacktLibrary
+  id: PacktLibrary
+  children:
+  - PacktLibrary.Utility
+  langs:
+  - csharp
+  - vb
+  name: PacktLibrary
+  nameWithType: PacktLibrary
+  fullName: PacktLibrary
+  type: Namespace
+  assemblies:
+  - PacktLibrary
+references:
+- uid: PacktLibrary.Utility
+  commentId: T:PacktLibrary.Utility
+  href: PacktLibrary.Utility.html
+  name: Utility
+  nameWithType: Utility
+  fullName: PacktLibrary.Utility

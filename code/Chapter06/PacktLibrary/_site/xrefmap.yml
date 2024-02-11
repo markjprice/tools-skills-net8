@@ -1,0 +1,60 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: PacktLibrary
+  name: PacktLibrary
+  href: api/PacktLibrary.html
+  commentId: N:PacktLibrary
+  fullName: PacktLibrary
+  nameWithType: PacktLibrary
+- uid: PacktLibrary.Utility
+  name: Utility
+  href: api/PacktLibrary.Utility.html
+  commentId: T:PacktLibrary.Utility
+  fullName: PacktLibrary.Utility
+  nameWithType: Utility
+- uid: PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)
+  name: ConfigureConsole(string, bool)
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_ConfigureConsole_System_String_System_Boolean_
+  commentId: M:PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)
+  name.vb: ConfigureConsole(String, Boolean)
+  fullName: PacktLibrary.Utility.ConfigureConsole(string, bool)
+  fullName.vb: PacktLibrary.Utility.ConfigureConsole(String, Boolean)
+  nameWithType: Utility.ConfigureConsole(string, bool)
+  nameWithType.vb: Utility.ConfigureConsole(String, Boolean)
+- uid: PacktLibrary.Utility.ConfigureConsole*
+  name: ConfigureConsole
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_ConfigureConsole_
+  commentId: Overload:PacktLibrary.Utility.ConfigureConsole
+  isSpec: "True"
+  fullName: PacktLibrary.Utility.ConfigureConsole
+  nameWithType: Utility.ConfigureConsole
+- uid: PacktLibrary.Utility.CurrentConsoleCulture
+  name: CurrentConsoleCulture()
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture
+  commentId: M:PacktLibrary.Utility.CurrentConsoleCulture
+  fullName: PacktLibrary.Utility.CurrentConsoleCulture()
+  nameWithType: Utility.CurrentConsoleCulture()
+- uid: PacktLibrary.Utility.CurrentConsoleCulture*
+  name: CurrentConsoleCulture
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_CurrentConsoleCulture_
+  commentId: Overload:PacktLibrary.Utility.CurrentConsoleCulture
+  isSpec: "True"
+  fullName: PacktLibrary.Utility.CurrentConsoleCulture
+  nameWithType: Utility.CurrentConsoleCulture
+- uid: PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)
+  name: WriteLineInColor(string, ConsoleColor)
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_WriteLineInColor_System_String_System_ConsoleColor_
+  commentId: M:PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)
+  name.vb: WriteLineInColor(String, ConsoleColor)
+  fullName: PacktLibrary.Utility.WriteLineInColor(string, System.ConsoleColor)
+  fullName.vb: PacktLibrary.Utility.WriteLineInColor(String, System.ConsoleColor)
+  nameWithType: Utility.WriteLineInColor(string, ConsoleColor)
+  nameWithType.vb: Utility.WriteLineInColor(String, ConsoleColor)
+- uid: PacktLibrary.Utility.WriteLineInColor*
+  name: WriteLineInColor
+  href: api/PacktLibrary.Utility.html#PacktLibrary_Utility_WriteLineInColor_
+  commentId: Overload:PacktLibrary.Utility.WriteLineInColor
+  isSpec: "True"
+  fullName: PacktLibrary.Utility.WriteLineInColor
+  nameWithType: Utility.WriteLineInColor

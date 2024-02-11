@@ -1,0 +1,7 @@
+{
+  "PacktLibrary": "PacktLibrary.yml",
+  "PacktLibrary.Utility": "PacktLibrary.Utility.yml",
+  "PacktLibrary.Utility.ConfigureConsole(System.String,System.Boolean)": "PacktLibrary.Utility.yml",
+  "PacktLibrary.Utility.CurrentConsoleCulture": "PacktLibrary.Utility.yml",
+  "PacktLibrary.Utility.WriteLineInColor(System.String,System.ConsoleColor)": "PacktLibrary.Utility.yml"
+}

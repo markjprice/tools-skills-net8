@@ -1,0 +1,27 @@
+{
+  "api/PacktLibrary.Utility.html": {
+    "href": "api/PacktLibrary.Utility.html",
+    "title": "Class Utility | PacktLibrary",
+    "keywords": "Class Utility This class contains utility methods like ConfigureConsole. Sets console encoding to UTF-8 to support special characters like Euro currency symbol, and sets the current culture to one of the following: A default culture of US English (en-US). A specified culture code like French in France (fr-FR). The local computer's culture. Inheritance object Utility Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: PacktLibrary Assembly: PacktLibrary.dll Syntax public class Utility Methods ConfigureConsole(string, bool) Configure the console to support Unicode characters and set the culture to en-US (by default), or to a specified culture, or to the local computer culture. This method calls the CurrentConsoleCulture() method to output the current culture. Declaration public static void ConfigureConsole(string culture = \"en-US\", bool useComputerCulture = false) Parameters Type Name Description string culture Set to an ISO culture code like fr-FR, en-GB, or es-AR. bool useComputerCulture Set to true to change the culture to the local computer's culture. CurrentConsoleCulture() Gets the current console culture in its native language. Declaration public static string CurrentConsoleCulture() Returns Type Description string The current console culture as a string. WriteLineInColor(string, ConsoleColor) Write a message to the console in the specified color. Declaration public static void WriteLineInColor(string text, ConsoleColor color) Parameters Type Name Description string text The text of the message. ConsoleColor color The color of the text."
+  },
+  "api/PacktLibrary.html": {
+    "href": "api/PacktLibrary.html",
+    "title": "Namespace PacktLibrary | PacktLibrary",
+    "keywords": "Namespace PacktLibrary Classes Utility This class contains utility methods like ConfigureConsole. Sets console encoding to UTF-8 to support special characters like Euro currency symbol, and sets the current culture to one of the following: A default culture of US English (en-US). A specified culture code like French in France (fr-FR). The local computer's culture."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | PacktLibrary",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | PacktLibrary",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | PacktLibrary",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
