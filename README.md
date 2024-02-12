@@ -30,9 +30,9 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 7 Observing and Modifying Code Execution Dynamically: [code/Chapter07](code/Chapter07)
 - Chapter 8 Protecting Data and Apps Using Cryptography: [code/Chapter08](code/Chapter08)
 - Chapter 9 Building a Custom GPT-based Chat Service: [code/Chapter09](code/Chapter09)
+- Chapter 10 Dependency Injection, Containers and Service Lifetime: [code/Chapter10](code/Chapter10)
 
 **Testing**
-- Chapter 10 Dependency Injection, Containers and Service Lifetime: [code/Chapter10](code/Chapter10)
 - Chapter 11 Unit Testing and Mocking: [code/Chapter11](code/Chapter11)
 - Chapter 12 Integration and System Testing: [code/Chapter12](code/Chapter12)
 - Chapter 13 Benchmarking Performance, Load, and Stress Testing: [code/Chapter13](code/Chapter13)
