@@ -13,9 +13,18 @@
 - [Chapter 4 - Debugging Tools and Observability](#chapter-4---debugging-tools-and-observability)
 - [Chapter 5 - Tools for Memory Troubleshooting](#chapter-5---tools-for-memory-troubleshooting)
 - [Chapter 6 - Documenting Your Code, APIs, and Services](#chapter-6---documenting-your-code-apis-and-services)
+  - [Documenting public APIs with XML comments](#documenting-public-apis-with-xml-comments)
+  - [DoxFX](#doxfx)
   - [Documenting web services](#documenting-web-services)
+  - [Mermaid](#mermaid)
 - [Chapter 7 - Observing and Modifying Code Execution Dynamically](#chapter-7---observing-and-modifying-code-execution-dynamically)
+  - [Assemblies and reflection](#assemblies-and-reflection)
+  - [Expression Trees](#expression-trees)
+  - [Source generators](#source-generators)
 - [Chapter 8 - Protecting Data and Apps Using Cryptography](#chapter-8---protecting-data-and-apps-using-cryptography)
+  - [Cross-platform cryptography](#cross-platform-cryptography)
+  - [General security knowledge](#general-security-knowledge)
+  - [Encryption](#encryption)
 - [Chapter 9 - Building a Custom GPT-based Chat Service](#chapter-9---building-a-custom-gpt-based-chat-service)
 - [Chapter 10 - Dependency Injection, Containers and Service Lifetime](#chapter-10---dependency-injection-containers-and-service-lifetime)
 - [Chapter 11 - Unit Testing and Mocking](#chapter-11---unit-testing-and-mocking)
@@ -43,6 +52,7 @@
 ## Visual Studio 2022
 - [Download Visual Studio for Windows](https://visualstudio.microsoft.com/downloads/)
 - [Sign up for a Microsoft account](https://signup.live.com/)
+- [Top 10 NEW Visual Studio Features of 2023 for .NET Developers](https://devblogs.microsoft.com/dotnet/my-top-10-new-visual-studio-features-of-2023-for-dotnet-developers/)
 
 ## Visual Studio Code
 - [C# Dev Kit – Now Generally Available](https://devblogs.microsoft.com/dotnet/csharp-dev-kit-now-generally-available/)
@@ -104,6 +114,14 @@
 
 # Chapter 6 - Documenting Your Code, APIs, and Services
 
+## Documenting public APIs with XML comments
+- [XML Comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)
+- [Recommended XML tags for C# documentation comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/recommended-tags)
+
+## DoxFX
+- [DocFX Quick Start](https://dotnet.github.io/docfx/)
+- [DocFX GitHub repository](https://github.com/dotnet/docfx)
+
 ## Documenting web services
 - [Swagger](https://swagger.io/)
 - [Swagger Tools](https://swagger.io/tools/)
@@ -111,12 +129,44 @@
 - [How Swagger can support multiple versions of an API](https://stackoverflow.com/questions/30789045/leverage-multipleapiversions-in-swagger-with-attribute-versioning/30789944)
 - [Importance of documenting services](https://idratherbewriting.com/learnapidoc/)
 
+## Mermaid
+- [Mermaid Live](https://mermaid.live/)
 
 # Chapter 7 - Observing and Modifying Code Execution Dynamically
 
+## Assemblies and reflection
+- [.NET API Reference](https://learn.microsoft.com/en-us/dotnet/api/)
+- [Compiler-generated display class](http://stackoverflow.com/a/2509524/55847)
+- [Dynamically load assemblies that are not currently referenced](https://learn.microsoft.com/en-us/dotnet/standard/assembly/unloadability-howto)
+- [Dynamically execute code](https://learn.microsoft.com/en-us/dotnet/api/system.reflection.methodbase.invoke)
+- [Dynamically generate new code and assemblies](https://learn.microsoft.com/en-us/dotnet/api/system.reflection.emit.assemblybuilder)
+- [Extending Metadata Using Attributes](https://learn.microsoft.com/en-us/dotnet/standard/attributes/)
+
+## Expression Trees
+- [Expression Trees (C#)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/expression-trees/)
+- [Building Expression Trees](https://learn.microsoft.com/en-us/dotnet/csharp/expression-trees-building)
+- [Expression trees for dummies?](https://stackoverflow.com/questions/623413/expression-trees-for-dummies)
+
+## Source generators
+- [Source Generators](https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview)
+- [Introducing C# Source Generators](https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/)
+- [Source Generators Cookbook](https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md)
+- [C# Source Generators](https://github.com/amis92/csharp-source-generators): "A list of C# Source Generators (not necessarily awesome), because I haven't found a good list yet."
 
 # Chapter 8 - Protecting Data and Apps Using Cryptography
 
+## Cross-platform cryptography
+- Features supported by which OS: https://docs.microsoft.com/en-us/dotnet/standard/security/cross-platform-cryptography
+
+## General security knowledge
+- Key Security Concepts: https://docs.microsoft.com/en-us/dotnet/standard/security/key-security-concepts
+- Dictionary Attacks 101: https://blog.codinghorror.com/dictionary-attacks-101/
+- The first publicly known SHA1 collision happened in 2017: https://arstechnica.co.uk/information-technology/2017/02/at-deaths-door-for-years-widely-used-sha1-function-is-now-dead/
+
+## Encryption
+- The RSA algorithm is based on the factorization of large integers: http://mathworld.wolfram.com/RSAEncryption.html
+- Encrypting Data: https://docs.microsoft.com/en-us/dotnet/standard/security/encrypting-data
+- Cryptographic Signatures: https://docs.microsoft.com/en-us/dotnet/standard/security/cryptographic-signatures
 
 # Chapter 9 - Building a Custom GPT-based Chat Service
 
@@ -148,7 +198,10 @@
 
 
 # Chapter 16 - Cloud-Native Development Using .NET Aspire
-
+- [Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8](https://devblogs.microsoft.com/dotnet/how-to-deploy-dotnet-aspire-apps-to-azure-container-apps/)
+- [.NET Aspire documentation](https://learn.microsoft.com/en-us/dotnet/aspire/)
+- [Aspire GitHub repository](https://github.com/dotnet/aspire)
+- [How to deploy .NET Aspire apps to Azure Container Apps](https://devblogs.microsoft.com/dotnet/how-to-deploy-dotnet-aspire-apps-to-azure-container-apps/)
 
 # Chapter 17 - Continuous Integration and Delivery with Deployment Pipelines
 
