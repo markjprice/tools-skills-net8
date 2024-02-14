@@ -2,6 +2,8 @@
 
 # Tools and Skills for .NET 8 Pros, First Edition
 
+Currently the book is planned to publish in summer 2024.
+
 Repository for the Packt Publishing book titled "Tools and Skills for .NET 8 Pros" by Mark J. Price
 
 If you have purchased the paperback or Kindle edition, then you can request a free PDF copy at the following link: https://www.packtpub.com/page/free-ebook.
