@@ -1,0 +1,1 @@
+Chapter 14 743 • How to consume services efficiently. • How to build a basic HTTP API service using Minimal APIs. In the next chapter, you will learn how to build user interfaces using Blazor, Microsoft’s component technology that enables developers to build client-side SPAs for websites using C# instead of JavaScript, and PWAs or hybrid apps for desktop. 

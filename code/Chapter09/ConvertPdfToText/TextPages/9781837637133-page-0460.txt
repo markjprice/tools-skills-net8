@@ -1,0 +1,1 @@
+Chapter 9 427 9. In the browser, note the plain text message, and then in the address bar, append hangfire, and note the Hangfire Dashboard user interface, as shown in Figure 9.7: Figure 9.7: Hangfire Dashboard user interface 

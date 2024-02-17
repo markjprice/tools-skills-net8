@@ -1,0 +1,1 @@
+Chapter 14 729 Figure 14.6: Swagger documentation for the Northwind Web API service endpoints 3. Click GET /api/Customers/{id} to expand that endpoint and note the required parameter for the id of a customer. 
