@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericHostApp", "GenericHostApp\GenericHostApp.csproj", "{F05AB79E-020F-402C-908E-D6B2251C95FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHostSite", "WebHostSite\WebHostSite.csproj", "{B3A90DFD-5795-498A-BBC5-6EA9CB17EDDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05AB79E-020F-402C-908E-D6B2251C95FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05AB79E-020F-402C-908E-D6B2251C95FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05AB79E-020F-402C-908E-D6B2251C95FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05AB79E-020F-402C-908E-D6B2251C95FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A90DFD-5795-498A-BBC5-6EA9CB17EDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A90DFD-5795-498A-BBC5-6EA9CB17EDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A90DFD-5795-498A-BBC5-6EA9CB17EDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A90DFD-5795-498A-BBC5-6EA9CB17EDDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01F7C2E2-EC00-4D31-A36B-B826A1D3353C}
+	EndGlobalSection
+EndGlobal
