@@ -162,47 +162,14 @@ mindmap
 
 ```
 
-
-## Graph showing variety of elements and custom styling
-```mermaid
-graph TD
-    %% Define the root node
-    A[Root Node] -->|Link Text| B(Child Node 1)
-    A --> C{Child Node 2}
-    A --> D[Child Node 3]
-    
-    %% Branching out from Child Node 1
-    B --> B1[Grandchild 1.1]
-    B --> B2(Grandchild 1.2)
-    %% Dashed line without arrow
-    B -.- B3{Grandchild 1.3} 
-    
-    %% Branching out from Child Node 2, with different arrow types
-    C -->|Solid Line| C1[Grandchild 2.1]
-    C -.->|Dashed Line| C2(Grandchild 2.2)
-    
-    %% Branching out from Child Node 3, showcasing styling
-    D --> D1[Grandchild 3.1]
-    D --> D2[Grandchild 3.2]
-    D --> D3[Grandchild 3.3]
-    
-    %% Applying styles
-    class B,C,D specialStyle;
-    class B1,B2,B3,C1,C2,D1,D2,D3 endStyle;
-    
-    %% Defining styles
-    classDef specialStyle fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef endStyle fill:#bbf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
-```
-
 ## Graph used for a "mind map"
 
 ```mermaid
 graph LR
-    A[.NET Developer] --> B(Basic Programming Foundations)
+    A[.NET 8 professional 2024] --> B(General Development)
     A --> C[.NET Frameworks and Platforms]
-    A --> D[Frontend Technologies]
-    A --> E[Database Technologies]
+    A --> D[Web Development]
+    A --> E[Databases]
     A --> F[Cloud Services]
     A --> G[DevOps and Version Control]
     A --> H[Testing and Quality Assurance]
@@ -211,18 +178,19 @@ graph LR
     A --> K[Performance and Optimization]
     A --> L[Continuous Learning]
 
-    B --> B1(C#)
-    B --> B2(F#)
-    B --> B3(VB.NET)
+    B --> B1(Git)
+    B --> B2(Getting Help)
+    B --> B3(Documentation)
 
     C --> C1(.NET Core / .NET 5+)
     C --> C2(ASP.NET Core)
     C --> C3(Entity Framework Core)
     C --> C4(Blazor)
 
-    D --> D1(HTML/CSS/JavaScript)
-    D --> D2(TypeScript)
-    D --> D3(Popular JS Frameworks)
+    D --> D1(HTML)
+    D --> D2(CSS)
+    D --> D3(JavaScript)
+    D --> D4(HTTP, TLS)
 
     E --> E1(SQL Server)
     E --> E2(NoSQL Databases)
@@ -256,8 +224,52 @@ graph LR
     L --> L2(Experimentation)
     L --> L3(Cross-disciplinary Skills)
 
+    B1 --> B1A(GitHub)
+    B1 --> B1B(Git UI Tools)
+
+    B2 --> B2A(Microsoft Learn)
+    B2 --> B2B(dotnet CLI help)
+    B2 --> B2C(ChatGPT)
+
+    B3 --> B3A(DocFX)
+    B3 --> B3B(Mermaid)
+
     D3 --> D3A(React)
     D3 --> D3B(Angular)
     D3 --> D3C(Vue.js)
     
+    E2 --> CosmosDB
+```
+
+
+## Graph showing variety of elements and custom styling
+```mermaid
+graph TD
+    %% Define the root node
+    A[Root Node] -->|Link Text| B(Child Node 1)
+    A --> C{Child Node 2}
+    A --> D[Child Node 3]
+    
+    %% Branching out from Child Node 1
+    B --> B1[Grandchild 1.1]
+    B --> B2(Grandchild 1.2)
+    %% Dashed line without arrow
+    B -.- B3{Grandchild 1.3} 
+    
+    %% Branching out from Child Node 2, with different arrow types
+    C -->|Solid Line| C1[Grandchild 2.1]
+    C -.->|Dashed Line| C2(Grandchild 2.2)
+    
+    %% Branching out from Child Node 3, showcasing styling
+    D --> D1[Grandchild 3.1]
+    D --> D2[Grandchild 3.2]
+    D --> D3[Grandchild 3.3]
+    
+    %% Applying styles
+    class B,C,D specialStyle;
+    class B1,B2,B3,C1,C2,D1,D2,D3 endStyle;
+    
+    %% Defining styles
+    classDef specialStyle fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef endStyle fill:#bbf,stroke:#f66,stroke-width:2px,stroke-dasharray: 5, 5;
 ```
