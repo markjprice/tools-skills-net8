@@ -1,10 +1,12 @@
 > **IMPORTANT!** [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 
-# Tools and Skills for .NET 8 Pros, First Edition
+# Tools and Skills for .NET 8, First Edition
 
-Currently the book is planned to publish in summer 2024.
+Repository for the Packt Publishing book titled "Tools and Skills for .NET 8" by Mark J. Price
 
-Repository for the Packt Publishing book titled "Tools and Skills for .NET 8 Pros" by Mark J. Price
+> *Get the career you want with good practices and patterns to design, debug, and test your solutions*
+
+Currently the book is planned to publish in Summer 2024.
 
 If you have purchased the paperback or Kindle edition, then you can request a free PDF copy at the following link: https://www.packtpub.com/page/free-ebook.
 
@@ -19,36 +21,33 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 > **Warning!** Chapters subject to change before publication.
 
 **Introduction**
-- Chapter 1 Introducing Tools and Skills for .NET Professionals [code/Chapter01](code/Chapter01)
+- Chapter 1 Introducing Tools and Skills for .NET Developers [code/Chapter01](code/Chapter01)
 
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
 - Chapter 3 Source Code Management Using Git: [code/Chapter03](code/Chapter03)
-- Chapter 4 Debugging Tools and Observability: [code/Chapter04](code/Chapter04)
-- Chapter 5 Tools for Memory Troubleshooting: [code/Chapter05](code/Chapter05)
+- Chapter 4 Debugging and Memory Troubleshooting: [code/Chapter04](code/Chapter04)
+- Chapter 5 Alerts, Metrics, and Logging for Observability: [code/Chapter05](code/Chapter05)
 
 **Skills**
-- Chapter 6 Documenting Your Code, APIs, and Services: [code/Chapter06](code/Chapter06)
+- Chapter 6 Documenting Code, APIs, and Services: [code/Chapter06](code/Chapter06)
 - Chapter 7 Observing and Modifying Code Execution Dynamically: [code/Chapter07](code/Chapter07)
 - Chapter 8 Protecting Data and Apps Using Cryptography: [code/Chapter08](code/Chapter08)
-- Chapter 9 Building a Custom GPT-based Chat Service: [code/Chapter09](code/Chapter09)
+- Chapter 9 Building a Custom LLM-based Chat Service: [code/Chapter09](code/Chapter09)
 - Chapter 10 Dependency Injection, Containers and Service Lifetime: [code/Chapter10](code/Chapter10)
 
 **Testing**
 - Chapter 11 Unit Testing and Mocking: [code/Chapter11](code/Chapter11)
-- Chapter 12 Integration and System Testing: [code/Chapter12](code/Chapter12)
+- Chapter 12 Integration and Security Testing: [code/Chapter12](code/Chapter12)
 - Chapter 13 Benchmarking Performance, Load, and Stress Testing: [code/Chapter13](code/Chapter13)
 - Chapter 14 Testing Websites, Services, and Mobile Apps: [code/Chapter14](code/Chapter14)
-
-**Deployment**
 - Chapter 15 Hosting with Docker and Containerization: [code/Chapter15](code/Chapter15)
 - Chapter 16 Cloud-Native Development Using .NET Aspire: [code/Chapter16](code/Chapter16)
-- Chapter 17 Continuous Integration and Delivery with Deployment Pipelines: [code/Chapter17](code/Chapter17)
 
 **Design**
-- Chapter 18 Design Patterns, Algorithms, and Data Structures: [code/Chapter18](code/Chapter18)
-- Chapter 19 Software Architecture for .NET Developers: [code/Chapter19](code/Chapter19)
-- Chapter 20 Preparing for an Interview: [code/Chapter20](code/Chapter20)
+- Chapter 17 Design Patterns, Algorithms, and Data Structures: [code/Chapter17](code/Chapter17)
+- Chapter 18 Software Architecture Foundations: [code/Chapter18](code/Chapter18)
+- Chapter 19 Preparing for an Interview: [code/Chapter19](code/Chapter19)
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
 
