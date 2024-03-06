@@ -25,10 +25,10 @@
   - [Cross-platform cryptography](#cross-platform-cryptography)
   - [General security knowledge](#general-security-knowledge)
   - [Encryption](#encryption)
-- [Chapter 9 - Building a Custom GPT-based Chat Service](#chapter-9---building-a-custom-gpt-based-chat-service)
+- [Chapter 9 - Building a Custom LLM-based Chat Service](#chapter-9---building-a-custom-llm-based-chat-service)
 - [Chapter 10 - Dependency Injection, Containers and Service Lifetime](#chapter-10---dependency-injection-containers-and-service-lifetime)
 - [Chapter 11 - Unit Testing and Mocking](#chapter-11---unit-testing-and-mocking)
-- [Chapter 12 - Integration and System Testing](#chapter-12---integration-and-system-testing)
+- [Chapter 12 - Integration and Security Testing](#chapter-12---integration-and-security-testing)
 - [Chapter 13 - Benchmarking Performance, Load, and Stress Testing](#chapter-13---benchmarking-performance-load-and-stress-testing)
   - [.NET performance improvements](#net-performance-improvements)
 - [Chapter 14 - Testing Websites, Services, and Mobile Apps](#chapter-14---testing-websites-services-and-mobile-apps)
@@ -168,7 +168,7 @@
 - Encrypting Data: https://docs.microsoft.com/en-us/dotnet/standard/security/encrypting-data
 - Cryptographic Signatures: https://docs.microsoft.com/en-us/dotnet/standard/security/cryptographic-signatures
 
-# Chapter 9 - Building a Custom GPT-based Chat Service
+# Chapter 9 - Building a Custom LLM-based Chat Service
 
 
 # Chapter 10 - Dependency Injection, Containers and Service Lifetime
@@ -177,7 +177,7 @@
 # Chapter 11 - Unit Testing and Mocking
 
 
-# Chapter 12 - Integration and System Testing
+# Chapter 12 - Integration and Security Testing
 
 
 # Chapter 13 - Benchmarking Performance, Load, and Stress Testing
