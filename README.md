@@ -40,8 +40,8 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 11 Unit Testing and Mocking: [code/Chapter11](code/Chapter11)
 - Chapter 12 Integration and Security Testing: [code/Chapter12](code/Chapter12)
 - Chapter 13 Benchmarking Performance, Load, and Stress Testing: [code/Chapter13](code/Chapter13)
-- Chapter 14 Testing Websites, Services, and Mobile Apps: [code/Chapter14](code/Chapter14)
-- Chapter 15 Hosting with Docker and Containerization: [code/Chapter15](code/Chapter15)
+- Chapter 14 Functional Testing of Websites and Services: [code/Chapter14](code/Chapter14)
+- Chapter 15 Containerization Using Docker: [code/Chapter15](code/Chapter15)
 - Chapter 16 Cloud-Native Development Using .NET Aspire: [code/Chapter16](code/Chapter16)
 
 **Design**
