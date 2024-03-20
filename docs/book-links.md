@@ -1,4 +1,4 @@
-- [Chapter 1 - Introducing Tools and Skills for .NET Professionals](#chapter-1---introducing-tools-and-skills-for-net-professionals)
+- [Chapter 1 - Introducing Tools and Skills for .NET](#chapter-1---introducing-tools-and-skills-for-net)
   - [.NET code editors and platforms](#net-code-editors-and-platforms)
   - [Visual Studio 2022](#visual-studio-2022)
   - [Visual Studio Code](#visual-studio-code)
@@ -8,7 +8,6 @@
 - [Chapter 2 - Making the Most of the Tools in your Code Editor](#chapter-2---making-the-most-of-the-tools-in-your-code-editor)
   - [Visual Studio 2022](#visual-studio-2022-1)
   - [Visual Studio Code](#visual-studio-code-1)
-  - [JetBrains Rider](#jetbrains-rider-1)
 - [Chapter 3 - Source Code Management Using Git](#chapter-3---source-code-management-using-git)
 - [Chapter 4 - Debugging Tools and Observability](#chapter-4---debugging-tools-and-observability)
 - [Chapter 5 - Tools for Memory Troubleshooting](#chapter-5---tools-for-memory-troubleshooting)
@@ -31,19 +30,20 @@
 - [Chapter 12 - Integration and Security Testing](#chapter-12---integration-and-security-testing)
 - [Chapter 13 - Benchmarking Performance, Load, and Stress Testing](#chapter-13---benchmarking-performance-load-and-stress-testing)
   - [.NET performance improvements](#net-performance-improvements)
-- [Chapter 14 - Testing Websites, Services, and Mobile Apps](#chapter-14---testing-websites-services-and-mobile-apps)
-- [Chapter 15 - Hosting with Docker and Containerization](#chapter-15---hosting-with-docker-and-containerization)
+- [Chapter 14 - Functional Testing of Websites and Services](#chapter-14---functional-testing-of-websites-and-services)
+- [Chapter 15 - Containerization Using Docker](#chapter-15---containerization-using-docker)
 - [Chapter 16 - Cloud-Native Development Using .NET Aspire](#chapter-16---cloud-native-development-using-net-aspire)
-- [Chapter 17 - Continuous Integration and Delivery with Deployment Pipelines](#chapter-17---continuous-integration-and-delivery-with-deployment-pipelines)
-- [Chapter 18 - Exploring Common Design Patterns for .NET](#chapter-18---exploring-common-design-patterns-for-net)
-- [Chapter 19 - Implementing Common Algorithms and Data Structures](#chapter-19---implementing-common-algorithms-and-data-structures)
-- [Chapter 20 - Introducing Software Architecture](#chapter-20---introducing-software-architecture)
-- [Chapter 21 - Preparing for an Interview](#chapter-21---preparing-for-an-interview)
+- [Chapter 17 - Design Patterns, Algorithms, and Data Structures](#chapter-17---design-patterns-algorithms-and-data-structures)
+  - [Design patterns](#design-patterns)
+  - [Algorithms](#algorithms)
+  - [Data structures](#data-structures)
+- [Chapter 18 - Software and Solution Architecture Foundations](#chapter-18---software-and-solution-architecture-foundations)
+- [Chapter 19 - Preparing for an Interview](#chapter-19---preparing-for-an-interview)
 - [Epilogue](#epilogue)
   - [Next steps on your C# and .NET learning journey](#next-steps-on-your-c-and-net-learning-journey)
   - [Learn from other Packt books](#learn-from-other-packt-books)
 
-# Chapter 1 - Introducing Tools and Skills for .NET Professionals
+# Chapter 1 - Introducing Tools and Skills for .NET
 
 ## .NET code editors and platforms
 - [Stack Overflow survey 2021 - Integrated development environment](https://insights.stackoverflow.com/survey/2021#section-most-popular-technologies-integrated-development-environment)
@@ -52,15 +52,14 @@
 ## Visual Studio 2022
 - [Download Visual Studio for Windows](https://visualstudio.microsoft.com/downloads/)
 - [Sign up for a Microsoft account](https://signup.live.com/)
-- [Top 10 NEW Visual Studio Features of 2023 for .NET Developers](https://devblogs.microsoft.com/dotnet/my-top-10-new-visual-studio-features-of-2023-for-dotnet-developers/)
 
 ## Visual Studio Code
-- [C# Dev Kit – Now Generally Available](https://devblogs.microsoft.com/dotnet/csharp-dev-kit-now-generally-available/)
 - [Download Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio Code key bindings and shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings)
   - [Windows shortcuts PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
   - [macOS shortcuts PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
   - [Linux shortcuts PDF](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+- [C# Dev Kit – Now Generally Available](https://devblogs.microsoft.com/dotnet/csharp-dev-kit-now-generally-available/)
 
 ## JetBrains Rider
 - [JetBrains Rider](https://www.jetbrains.com/rider/)
@@ -89,16 +88,13 @@
 # Chapter 2 - Making the Most of the Tools in your Code Editor
 
 ## Visual Studio 2022
+- [Top 10 NEW Visual Studio Features of 2023 for .NET Developers](https://devblogs.microsoft.com/dotnet/my-top-10-new-visual-studio-features-of-2023-for-dotnet-developers/)
 - [Visual Studio for Windows documentation](https://learn.microsoft.com/en-us/visualstudio/windows/)
 - [MSBuild and 64-bit Visual Studio 2022](https://devblogs.microsoft.com/dotnet/msbuild-and-64-bit-visual-studio-2022/)
 
 ## Visual Studio Code
 - [Visual Studio Code documentation](https://code.visualstudio.com/docs)
 - [Set up Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
-
-## JetBrains Rider
-- [JetBrains Rider](https://www.jetbrains.com/rider/)
-- [Rider documentation](https://www.jetbrains.com/help/rider/Introduction.html)
 
 # Chapter 3 - Source Code Management Using Git
 
@@ -123,11 +119,11 @@
 - [DocFX GitHub repository](https://github.com/dotnet/docfx)
 
 ## Documenting web services
+- [Importance of documenting services](https://idratherbewriting.com/learnapidoc/)
 - [Swagger](https://swagger.io/)
 - [Swagger Tools](https://swagger.io/tools/)
 - [Swashbuckle for ASP.NET Core](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 - [How Swagger can support multiple versions of an API](https://stackoverflow.com/questions/30789045/leverage-multipleapiversions-in-swagger-with-attribute-versioning/30789944)
-- [Importance of documenting services](https://idratherbewriting.com/learnapidoc/)
 
 ## Mermaid
 - [Mermaid Live](https://mermaid.live/)
@@ -169,16 +165,19 @@
 - Cryptographic Signatures: https://docs.microsoft.com/en-us/dotnet/standard/security/cryptographic-signatures
 
 # Chapter 9 - Building a Custom LLM-based Chat Service
-
+- Semantic Kernel: https://learn.microsoft.com/en-us/semantic-kernel/
 
 # Chapter 10 - Dependency Injection, Containers and Service Lifetime
-
+- .NET dependency injection: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection
+- Service lifetimes: https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection#service-lifetimes
 
 # Chapter 11 - Unit Testing and Mocking
-
+- xUnit: https://xunit.net/
+- nunit: https://nunit.org/
+- MS Test: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-mstest-intro
 
 # Chapter 12 - Integration and Security Testing
-
+- Integration tests in ASP.NET Core: https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests
 
 # Chapter 13 - Benchmarking Performance, Load, and Stress Testing
 
@@ -191,11 +190,13 @@
 - [Performance Improvements in .NET Core 2.1](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/)
 - [Performance Improvements in .NET Core](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core/)
 
-# Chapter 14 - Testing Websites, Services, and Mobile Apps
+# Chapter 14 - Functional Testing of Websites and Services
+- Testing ASP.NET Core services and web apps: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps
+- Playwright for .NET: https://playwright.dev/dotnet/
 
-
-# Chapter 15 - Hosting with Docker and Containerization
-
+# Chapter 15 - Containerization Using Docker
+- Docker documentation: https://docs.docker.com/
+- Docker Desktop: https://www.docker.com/products/docker-desktop/
 
 # Chapter 16 - Cloud-Native Development Using .NET Aspire
 - [Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8](https://devblogs.microsoft.com/dotnet/how-to-deploy-dotnet-aspire-apps-to-azure-container-apps/)
@@ -203,19 +204,27 @@
 - [Aspire GitHub repository](https://github.com/dotnet/aspire)
 - [How to deploy .NET Aspire apps to Azure Container Apps](https://devblogs.microsoft.com/dotnet/how-to-deploy-dotnet-aspire-apps-to-azure-container-apps/)
 
-# Chapter 17 - Continuous Integration and Delivery with Deployment Pipelines
+# Chapter 17 - Design Patterns, Algorithms, and Data Structures
+
+## Design patterns
+- Design pattern: https://simple.wikipedia.org/wiki/Design_pattern
+- SOLID: https://simple.wikipedia.org/wiki/SOLID_(object-oriented_design)
+- YAGNI: https://martinfowler.com/bliki/Yagni.html
+- KISS: https://en.wikipedia.org/wiki/KISS_principle
+- DRY: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+
+## Algorithms
 
 
-# Chapter 18 - Exploring Common Design Patterns for .NET
+## Data structures
 
 
-# Chapter 19 - Implementing Common Algorithms and Data Structures
 
+# Chapter 18 - Software and Solution Architecture Foundations
+- Domain-Driven Design (DDD): https://en.wikipedia.org/wiki/Domain-driven_design
+- Command Query Responsibility Segregation (CQRS): https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation
 
-# Chapter 20 - Introducing Software Architecture
-
-
-# Chapter 21 - Preparing for an Interview
+# Chapter 19 - Preparing for an Interview
 
 
 # Epilogue
