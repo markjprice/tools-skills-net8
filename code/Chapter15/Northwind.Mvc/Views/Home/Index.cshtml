@@ -1,0 +1,17 @@
+﻿@model EnvironmentLib.EnvironmentInfo
+@{
+  ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+  <h1 class="display-4">Welcome</h1>
+  <table class="table table-bordered table-sm">
+    <tr><th>Property</th><th>Value</th></tr>
+    <tr><td>User</td><td>@Model.UserName</td></tr>
+    <tr><td>Host</td><td>@Model.HostName</td></tr>
+    <tr><td>OS</td><td>@Model.OS</td></tr>
+    <tr><td>Architecture</td><td>@Model.Architecture</td></tr>
+    <tr><td>Platform</td><td>@Model.DotNet</td></tr>
+    <tr><td>Processors</td><td>@Model.Processors</td></tr>
+    <tr><td>In a container</td><td>@Model.InContainer</td></tr>
+  </table>
+</div>
