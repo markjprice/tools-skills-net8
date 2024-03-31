@@ -41,19 +41,14 @@ WriteLine($"Name: {p.Identity?.Name}");
 WriteLine($"IsInRole(\"Admins\"): {p.IsInRole("Admins")}");
 WriteLine($"IsInRole(\"Sales\"): {p.IsInRole("Sales")}");
 
-if (p is ClaimsPrincipal)
+if (p is ClaimsPrincipal principal)
 {
-  WriteLine($"{p.Identity?.Name} has the following claims:");
+    Console.WriteLine($"{principal.Identity?.Name} has the following claims:");
 
-  IEnumerable<Claim>? claims = (p as ClaimsPrincipal)?.Claims;
-
-  if (claims is not null)
-  {
-    foreach (Claim claim in claims)
+    foreach (Claim claim in principal.Claims)
     {
-      WriteLine($"{claim.Type}: {claim.Value}");
+        Console.WriteLine($"{claim.Type}: {claim.Value}");
     }
-  }
 }
 
 try
