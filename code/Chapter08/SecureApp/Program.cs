@@ -43,11 +43,11 @@ WriteLine($"IsInRole(\"Sales\"): {p.IsInRole("Sales")}");
 
 if (p is ClaimsPrincipal principal)
 {
-    Console.WriteLine($"{principal.Identity?.Name} has the following claims:");
+    WriteLine($"{principal.Identity?.Name} has the following claims:");
 
     foreach (Claim claim in principal.Claims)
     {
-        Console.WriteLine($"{claim.Type}: {claim.Value}");
+        WriteLine($"{claim.Type}: {claim.Value}");
     }
 }
 
