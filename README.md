@@ -21,7 +21,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 > **Warning!** Chapters subject to change before publication.
 
 **Introduction**
-- Chapter 1 Introducing Tools and Skills for .NET Developers [code/Chapter01](code/Chapter01)
+- Chapter 1 Introducing Tools and Skills for .NET [code/Chapter01](code/Chapter01)
 
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
@@ -45,9 +45,9 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 16 Cloud-Native Development Using .NET Aspire: [code/Chapter16](code/Chapter16)
 
 **Design**
-- Chapter 17 Design Patterns, Algorithms, and Data Structures: [code/Chapter17](code/Chapter17)
+- Chapter 17 Design Patterns and Principles: [code/Chapter17](code/Chapter17)
 - Chapter 18 Software and Solution Architecture Foundations: [code/Chapter18](code/Chapter18)
-- Chapter 19 Preparing for an Interview: [code/Chapter19](code/Chapter19)
+- Chapter 19 Your Career, Teamwork, and Interviews: [code/Chapter19](code/Chapter19)
 
 ## Code solutions for Visual Studio 2022 and Visual Studio Code
 
