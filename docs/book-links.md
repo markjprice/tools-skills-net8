@@ -29,16 +29,12 @@
 - [Chapter 11 - Unit Testing and Mocking](#chapter-11---unit-testing-and-mocking)
 - [Chapter 12 - Integration and Security Testing](#chapter-12---integration-and-security-testing)
 - [Chapter 13 - Benchmarking Performance, Load, and Stress Testing](#chapter-13---benchmarking-performance-load-and-stress-testing)
-  - [.NET performance improvements](#net-performance-improvements)
-- [Chapter 14 - Functional Testing of Websites and Services](#chapter-14---functional-testing-of-websites-and-services)
+- [Chapter 14 - Functional and End-to-End Testing of Websites and Services](#chapter-14---functional-and-end-to-end-testing-of-websites-and-services)
 - [Chapter 15 - Containerization Using Docker](#chapter-15---containerization-using-docker)
 - [Chapter 16 - Cloud-Native Development Using .NET Aspire](#chapter-16---cloud-native-development-using-net-aspire)
-- [Chapter 17 - Design Patterns, Algorithms, and Data Structures](#chapter-17---design-patterns-algorithms-and-data-structures)
-  - [Design patterns](#design-patterns)
-  - [Algorithms](#algorithms)
-  - [Data structures](#data-structures)
+- [Chapter 17 - Design Patterns and Principles](#chapter-17---design-patterns-and-principles)
 - [Chapter 18 - Software and Solution Architecture Foundations](#chapter-18---software-and-solution-architecture-foundations)
-- [Chapter 19 - Preparing for an Interview](#chapter-19---preparing-for-an-interview)
+- [Chapter 19 - Your Career, Teamwork, and Interviews](#chapter-19---your-career-teamwork-and-interviews)
 - [Epilogue](#epilogue)
   - [Next steps on your C# and .NET learning journey](#next-steps-on-your-c-and-net-learning-journey)
   - [Learn from other Packt books](#learn-from-other-packt-books)
@@ -180,8 +176,6 @@
 - Integration tests in ASP.NET Core: https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests
 
 # Chapter 13 - Benchmarking Performance, Load, and Stress Testing
-
-## .NET performance improvements
 - [Arm64 Performance Improvements in .NET 7](https://devblogs.microsoft.com/dotnet/arm64-performance-improvements-in-dotnet-7/)
 - [Performance Improvements in .NET 7](https://devblogs.microsoft.com/dotnet/performance_improvements_in_net_7/)
 - [Performance Improvements in .NET 6](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-6/)
@@ -190,7 +184,7 @@
 - [Performance Improvements in .NET Core 2.1](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/)
 - [Performance Improvements in .NET Core](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core/)
 
-# Chapter 14 - Functional Testing of Websites and Services
+# Chapter 14 - Functional and End-to-End Testing of Websites and Services
 - Testing ASP.NET Core services and web apps: https://learn.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/test-aspnet-core-services-web-apps
 - Playwright for .NET: https://playwright.dev/dotnet/
 
@@ -204,27 +198,19 @@
 - [Aspire GitHub repository](https://github.com/dotnet/aspire)
 - [How to deploy .NET Aspire apps to Azure Container Apps](https://devblogs.microsoft.com/dotnet/how-to-deploy-dotnet-aspire-apps-to-azure-container-apps/)
 
-# Chapter 17 - Design Patterns, Algorithms, and Data Structures
+# Chapter 17 - Design Patterns and Principles
 
-## Design patterns
 - Design pattern: https://simple.wikipedia.org/wiki/Design_pattern
 - SOLID: https://simple.wikipedia.org/wiki/SOLID_(object-oriented_design)
 - YAGNI: https://martinfowler.com/bliki/Yagni.html
 - KISS: https://en.wikipedia.org/wiki/KISS_principle
 - DRY: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
-## Algorithms
-
-
-## Data structures
-
-
-
 # Chapter 18 - Software and Solution Architecture Foundations
 - Domain-Driven Design (DDD): https://en.wikipedia.org/wiki/Domain-driven_design
 - Command Query Responsibility Segregation (CQRS): https://en.wikipedia.org/wiki/Command_Query_Responsibility_Segregation
 
-# Chapter 19 - Preparing for an Interview
+# Chapter 19 - Your Career, Teamwork, and Interviews
 
 
 # Epilogue
