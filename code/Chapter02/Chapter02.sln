@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePlusProject", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnippetDemos4Code", "SnippetDemos4Code\SnippetDemos4Code.csproj", "{327E331E-2832-4BD5-9840-9AD31479E727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoweringCode", "LoweringCode\LoweringCode.csproj", "{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{327E331E-2832-4BD5-9840-9AD31479E727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{327E331E-2832-4BD5-9840-9AD31479E727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{327E331E-2832-4BD5-9840-9AD31479E727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
