@@ -158,10 +158,10 @@ public static class Protector
     string salt, string hashedPassword)
   {
     // re-generate the salted and hashed password 
-    string saltedhashedPassword = SaltAndHashPassword(
+    string saltedHashedPassword = SaltAndHashPassword(
       password, salt);
 
-    return (saltedhashedPassword == hashedPassword);
+    return (saltedHashedPassword == hashedPassword);
   }
 
   private static string SaltAndHashPassword(string password, string salt)

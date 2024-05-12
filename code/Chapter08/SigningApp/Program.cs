@@ -24,13 +24,16 @@ else
   WriteLine("Invalid signature or the data has been manipulated.");
 }
 
-// Simulate manipulated data by replacing the
-// first character with an X or Y.
-string manipulatedData = data.Replace(data[0], 'X');
-if (manipulatedData == data)
+// Simulate manipulated data by replacing the first 
+// character with an X (or if already an X then Y).
+char newFirstChar = 'X';
+
+if (data[0] == newFirstChar)
 {
-  manipulatedData = data.Replace(data[0], 'Y');
+  newFirstChar = 'Y';
 }
+
+string manipulatedData = $"{newFirstChar}{data.Substring(1)}";
 
 if (Protector.ValidateSignature(manipulatedData, signature))
 {
