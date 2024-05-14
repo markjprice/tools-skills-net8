@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DebugLibrary\DebugLibrary.csproj" />
-    <ProjectReference Include="..\Northwind.EntityModels\Northwind.EntityModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>
