@@ -9,8 +9,8 @@
   - [Visual Studio 2022](#visual-studio-2022-1)
   - [Visual Studio Code](#visual-studio-code-1)
 - [Chapter 3 - Source Code Management Using Git](#chapter-3---source-code-management-using-git)
-- [Chapter 4 - Debugging Tools and Observability](#chapter-4---debugging-tools-and-observability)
-- [Chapter 5 - Tools for Memory Troubleshooting](#chapter-5---tools-for-memory-troubleshooting)
+- [Chapter 4 - Debugging and Memory Troubleshooting](#chapter-4---debugging-and-memory-troubleshooting)
+- [Chapter 5 - Alerts, Metrics, and Logging for Observability](#chapter-5---alerts-metrics-and-logging-for-observability)
 - [Chapter 6 - Documenting Your Code, APIs, and Services](#chapter-6---documenting-your-code-apis-and-services)
   - [Documenting public APIs with XML comments](#documenting-public-apis-with-xml-comments)
   - [DoxFX](#doxfx)
@@ -87,6 +87,7 @@
 - [Top 10 NEW Visual Studio Features of 2023 for .NET Developers](https://devblogs.microsoft.com/dotnet/my-top-10-new-visual-studio-features-of-2023-for-dotnet-developers/)
 - [Visual Studio for Windows documentation](https://learn.microsoft.com/en-us/visualstudio/windows/)
 - [MSBuild and 64-bit Visual Studio 2022](https://devblogs.microsoft.com/dotnet/msbuild-and-64-bit-visual-studio-2022/)
+- [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
 
 ## Visual Studio Code
 - [Visual Studio Code documentation](https://code.visualstudio.com/docs)
@@ -98,10 +99,21 @@
 - [Download GitHub Desktop](https://desktop.github.com)
 - [Become a master at Git and Open Source](https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/)
 
-# Chapter 4 - Debugging Tools and Observability
+# Chapter 4 - Debugging and Memory Troubleshooting
 
+- [Git bisect command](https://git-scm.com/docs/git-bisect)
+- [GitHub Copilot numbers](https://visualstudiomagazine.com/articles/2024/02/05/copilot-numbers.aspx)
+- [Unsafe code](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code)
+- [stackalloc](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/stackalloc)
+- [Boxing](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing)
+- [.NET 8 improvements in GC](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-8/#gc)
+- [Visual Studio debugger](https://devblogs.microsoft.com/visualstudio/in-the-debuggers-spotlight-a-year-in-review/)
+- [Profiling tools and skills with Visual Studio](https://learn.microsoft.com/en-us/visualstudio/profiling/)
+- [Debug containers](https://devblogs.microsoft.com/dotnet/debugging-dotnet-containers-with-visual-studio-code-docker-tools/)
+- [.NET Object Allocation tool](https://learn.microsoft.com/en-us/visualstudio/profiling/dotnet-alloc-tool)
 
-# Chapter 5 - Tools for Memory Troubleshooting
+# Chapter 5 - Alerts, Metrics, and Logging for Observability
+
 
 
 # Chapter 6 - Documenting Your Code, APIs, and Services
