@@ -6,7 +6,7 @@ Repository for the Packt Publishing book titled "Tools and Skills for .NET 8" by
 
 > *Get the career you want with good practices and patterns to design, debug, and test your solutions*
 
-Currently the book is planned to publish in Summer 2024. 
+Currently the book is planned to publish on July 30, 2024. 
 - Amazon page: https://www.amazon.com/Tools-Skills-NET-practices-solutions/dp/183763520X/
 - Packt page: https://www.packtpub.com/product/tools-and-skills-for-net-8/9781837635207
 
@@ -20,10 +20,8 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 ## Chapters and code solutions
 
-> **Warning!** Chapters subject to change before publication.
-
 **Introduction**
-- Chapter 1 Introducing Tools and Skills for .NET [code/Chapter01](code/Chapter01)
+- Chapter 1 Introducing Tools and Skills for .NET
 
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
@@ -36,7 +34,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 7 Observing and Modifying Code Execution Dynamically: [code/Chapter07](code/Chapter07)
 - Chapter 8 Protecting Data and Apps Using Cryptography: [code/Chapter08](code/Chapter08)
 - Chapter 9 Building a Custom LLM-based Chat Service: [code/Chapter09](code/Chapter09)
-- Chapter 10 Dependency Injection, Containers and Service Lifetime: [code/Chapter10](code/Chapter10)
+- Chapter 10 Dependency Injection, Containers, and Service Lifetime: [code/Chapter10](code/Chapter10)
 
 **Testing**
 - Chapter 11 Unit Testing and Mocking: [code/Chapter11](code/Chapter11)
@@ -63,8 +61,8 @@ Visual Studio Code now has an extension named **C# Dev Kit** that includes a sol
 
 The appendix and color figures are available to download as PDFs:
 
-- Appendix A, Answers to the Test Your Knowledge Questions: coming Summer 2024.
-- Color images of the screenshots/diagrams used in this book: coming Summer 2024.
+- Appendix A, Answers to the Test Your Knowledge Questions: coming July 30, 2024.
+- Color images of the screenshots/diagrams used in this book: coming July 30, 2024.
 
 ## Important
 
@@ -74,13 +72,6 @@ Corrections for typos and other mistakes and improvements like refactoring code.
 - [Book Links](docs/book-links.md)
 - [Common Mistakes, Improvements, and Errata aka list of corrections](docs/errata/README.md)
 - [First edition's support for .NET 9](docs/dotnet9.md)
-
-## Microsoft Certifications
-
-Announcing the New Foundational C# Certification with freeCodeCamp:
-https://devblogs.microsoft.com/dotnet/announcing-foundational-csharp-certification/
-
-Microsoft used to have professional exams and certifications for developers that covered skills like C# and ASP.NET. Sadly, they have retired them all. These days, the only developer-adjacent exams and certifications are for Azure or Power Platform, as you can see from the certification poster: https://aka.ms/traincertposter
 
 ## Microsoft .NET community support
 
@@ -107,4 +98,4 @@ Written interviews with me:
 - [C# 9 and .NET 5: Book Review and Q&A](https://www.infoq.com/articles/book-interview-mark-price/?itm_source=infoq&itm_campaign=user_page&itm_medium=link)
 - [Q&A with Episerver's Mark J. Price, author of C# 9 and .NET 5 - Modern Cross-Platform Development](https://www.episerver.com/articles/q-and-a-with-mark-price)
 
-![Tools and Skills for .NET 8 Pros cover](docs/assets/B19588_Cover.png)
+![Tools and Skills for .NET 8 cover](docs/assets/B19588_Cover.png)
