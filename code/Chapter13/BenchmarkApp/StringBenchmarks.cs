@@ -1,5 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes; // To use [Benchmark].
 
+// Same null namespace as in Program.cs.
+
 public class StringBenchmarks
 {
   int[] numbers;
