@@ -27,7 +27,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
 - Chapter 3 Source Code Management Using Git: [code/Chapter03](code/Chapter03)
 - Chapter 4 Debugging and Memory Troubleshooting: [code/Chapter04](code/Chapter04)
-- Chapter 5 Alerts, Metrics, and Logging for Observability: [code/Chapter05](code/Chapter05)
+- Chapter 5 Logging, Tracing, and Metrics for Observability: [code/Chapter05](code/Chapter05)
 
 **Skills**
 - Chapter 6 Documenting Code, APIs, and Services: [code/Chapter06](code/Chapter06)

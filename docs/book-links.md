@@ -10,7 +10,7 @@
   - [Visual Studio Code](#visual-studio-code-1)
 - [Chapter 3 - Source Code Management Using Git](#chapter-3---source-code-management-using-git)
 - [Chapter 4 - Debugging and Memory Troubleshooting](#chapter-4---debugging-and-memory-troubleshooting)
-- [Chapter 5 - Alerts, Metrics, and Logging for Observability](#chapter-5---alerts-metrics-and-logging-for-observability)
+- [Chapter 5 - Logging, Tracing, and Metrics for Observability](#chapter-5---logging-tracing-and-metrics-for-observability)
 - [Chapter 6 - Documenting Your Code, APIs, and Services](#chapter-6---documenting-your-code-apis-and-services)
   - [Documenting public APIs with XML comments](#documenting-public-apis-with-xml-comments)
   - [DoxFX](#doxfx)
@@ -112,7 +112,7 @@
 - [Debug containers](https://devblogs.microsoft.com/dotnet/debugging-dotnet-containers-with-visual-studio-code-docker-tools/)
 - [.NET Object Allocation tool](https://learn.microsoft.com/en-us/visualstudio/profiling/dotnet-alloc-tool)
 
-# Chapter 5 - Alerts, Metrics, and Logging for Observability
+# Chapter 5 - Logging, Tracing, and Metrics for Observability
 
 
 
