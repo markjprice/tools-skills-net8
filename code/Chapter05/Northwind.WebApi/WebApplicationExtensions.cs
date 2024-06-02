@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults; // To use Results.
 using Microsoft.AspNetCore.Mvc; // To use [FromServices] and so on.
 using Northwind.EntityModels; // To use NorthwindContext, Product.
+using Northwind.WebApi; // To use MetricsService.
 
 namespace Packt.Extensions;
 
@@ -9,6 +10,12 @@ public static class WebApplicationExtensions
   public static WebApplication MapGets(this WebApplication app,
     int pageSize = 10)
   {
+    app.MapGet("api/metrics", (
+      [FromServices] MetricsService metricsService) => new
+    {
+      metricsService.RequestCount, metricsService.RequestDurations
+    });
+
     app.MapGet("/", () => "Hello World!")
       .ExcludeFromDescription();
 

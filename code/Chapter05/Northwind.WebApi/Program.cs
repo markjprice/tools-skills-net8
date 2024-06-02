@@ -1,5 +1,6 @@
 using Northwind.EntityModels; // To use the AddNorthwindContext method.
 using Packt.Extensions; // To use MapGets.
+using Northwind.WebApi; // To use the MetricsService class.
 using OpenTelemetry.Logs; // To use AddConsoleExporter.
 using OpenTelemetry.Metrics; // To use WithMetrics.
 using OpenTelemetry.Resources; // To use ResourceBuilder.
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddNorthwindContext();
+builder.Services.AddSingleton<MetricsService>();
 
 // Add and configure OpenTelemetry to logging and services.
 const string serviceName = "Northwind.WebApi";
@@ -46,7 +48,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMetricsMiddleware();
 
-app.MapGets();
+app.MapGets(); // Default pageSize: 10.
 
 app.Run();

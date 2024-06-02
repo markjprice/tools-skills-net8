@@ -10,17 +10,19 @@ using ILoggerFactory factory =
 
     // Optionally, add other providers like:
     // AddDebug, AddEventLog, AddSerilog, AddLog4Net.
+    // These methods are only available if you reference the 
+    // appropriate packages.
 
-    // Add configuration like:
+    // Optionally, add configuration like:
     // AddFilter, AddConfiguration.
   });
 
-// The type parameter is used to categorize log messages.
+// The generic type parameter is used to categorize log messages.
 ILogger logger = factory.CreateLogger<Program>();
 
 string[] messageTemplates =
 {
-  "Logging is {Description}",
+  "Logging is {Description}", // messageTemplates[0]
   "Product ID: {ProductId}, Product Name: {ProductName}"
 };
 

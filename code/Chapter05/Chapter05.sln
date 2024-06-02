@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34902.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.EntityModels", "Northwind.EntityModels\Northwind.EntityModels.csproj", "{079592A1-8645-4700-AA55-B4FDD286FC4B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.DataContext", "Northwind.DataContext\Northwind.DataContext.csproj", "{B054BA82-4C5E-49B4-B45B-4532B76B54D4}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.EntityModels.Tests", "Northwind.EntityModels.Tests\Northwind.EntityModels.Tests.csproj", "{F6AF692E-CA89-41BC-B77C-C4E264D33803}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{0092C702-D95C-4751-BAA0-F5CB1BF0B5B7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerApp", "LoggerApp\LoggerApp.csproj", "{55979884-FEA9-4E70-8DD8-B6A3095FA0E6}"
@@ -19,18 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{079592A1-8645-4700-AA55-B4FDD286FC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{079592A1-8645-4700-AA55-B4FDD286FC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{079592A1-8645-4700-AA55-B4FDD286FC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{079592A1-8645-4700-AA55-B4FDD286FC4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B054BA82-4C5E-49B4-B45B-4532B76B54D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B054BA82-4C5E-49B4-B45B-4532B76B54D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B054BA82-4C5E-49B4-B45B-4532B76B54D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B054BA82-4C5E-49B4-B45B-4532B76B54D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6AF692E-CA89-41BC-B77C-C4E264D33803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6AF692E-CA89-41BC-B77C-C4E264D33803}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6AF692E-CA89-41BC-B77C-C4E264D33803}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6AF692E-CA89-41BC-B77C-C4E264D33803}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0092C702-D95C-4751-BAA0-F5CB1BF0B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0092C702-D95C-4751-BAA0-F5CB1BF0B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0092C702-D95C-4751-BAA0-F5CB1BF0B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
