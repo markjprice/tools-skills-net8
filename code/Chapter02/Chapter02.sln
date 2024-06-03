@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeSnippetDemos", "CodeSni
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePlusTemplate", "ConsolePlusTemplate\ConsolePlusTemplate.csproj", "{17697E6C-DA68-4C9D-85F6-F2B197E3613F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolePlusProject", "ConsolePlusTemplate\content\ConsolePlusProject\ConsolePlusProject.csproj", "{883FE9A9-9C18-4AAD-9C0A-F1D995B870D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePlusProject", "ConsolePlusTemplate\content\ConsolePlusProject\ConsolePlusProject.csproj", "{883FE9A9-9C18-4AAD-9C0A-F1D995B870D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnippetDemos4Code", "SnippetDemos4Code\SnippetDemos4Code.csproj", "{327E331E-2832-4BD5-9840-9AD31479E727}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnippetDemos4Code", "SnippetDemos4Code\SnippetDemos4Code.csproj", "{327E331E-2832-4BD5-9840-9AD31479E727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoweringCode", "LoweringCode\LoweringCode.csproj", "{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoweringCode", "LoweringCode\LoweringCode.csproj", "{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetEverywhere", "DotNetEverywhere\DotNetEverywhere.csproj", "{0D1DBB5E-1C0F-429B-8FBA-CEF0DB489BDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2883F8E6-5143-424B-9CE6-0B41DBBE7F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1DBB5E-1C0F-429B-8FBA-CEF0DB489BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1DBB5E-1C0F-429B-8FBA-CEF0DB489BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1DBB5E-1C0F-429B-8FBA-CEF0DB489BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1DBB5E-1C0F-429B-8FBA-CEF0DB489BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
