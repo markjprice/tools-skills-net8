@@ -1,1 +1,0 @@
-Caching, Queuing, and Resilient Background Services 434 Learn more on Discord To join the Discord community for this book – where you can share feedback, ask questions to the author, and learn about new releases – follow the QR code below: https://packt.link/apps_and_services_dotnet8 

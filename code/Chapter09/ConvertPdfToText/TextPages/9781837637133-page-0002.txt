@@ -1,1 +1,0 @@
-Apps and Services with .NET 8 Second Edition Build practical projects with Blazor, .NET MAUI, gRPC, GraphQL, and other enterprise technologies Mark J. Price BIRMINGHAM—MUMBAI 

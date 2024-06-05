@@ -3,15 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfChatApp", "PdfChatApp\PdfChatApp.csproj", "{728F34C7-59B5-4D7C-9C98-9F8A32567152}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LlamaApp", "LlamaApp\LlamaApp.csproj", "{ABBDD3E7-B8CB-4043-810D-7FA337416921}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConvertPdfToText", "ConvertPdfToText\ConvertPdfToText.csproj", "{E044938B-F90A-4CA6-8D46-7B891979162F}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.EntityModels.Sqlite", "Northwind.EntityModels.Sqlite\Northwind.EntityModels.Sqlite.csproj", "{6D03ACA7-B9E6-4D41-ACD5-86790DF05BCB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.DataContext.Sqlite", "Northwind.DataContext.Sqlite\Northwind.DataContext.Sqlite.csproj", "{2C646FCD-BA86-45B2-95E3-AFA7E8697505}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.UnitTests", "Northwind.UnitTests\Northwind.UnitTests.csproj", "{2C9E834C-D65A-427B-8473-EEAF5CA657A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatApp", "ChatApp\ChatApp.csproj", "{017ED5E3-9DAC-4759-B440-3C250D91537C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{728F34C7-59B5-4D7C-9C98-9F8A32567152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{728F34C7-59B5-4D7C-9C98-9F8A32567152}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{728F34C7-59B5-4D7C-9C98-9F8A32567152}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{728F34C7-59B5-4D7C-9C98-9F8A32567152}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E044938B-F90A-4CA6-8D46-7B891979162F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E044938B-F90A-4CA6-8D46-7B891979162F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E044938B-F90A-4CA6-8D46-7B891979162F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E044938B-F90A-4CA6-8D46-7B891979162F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D03ACA7-B9E6-4D41-ACD5-86790DF05BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D03ACA7-B9E6-4D41-ACD5-86790DF05BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D03ACA7-B9E6-4D41-ACD5-86790DF05BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D03ACA7-B9E6-4D41-ACD5-86790DF05BCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C646FCD-BA86-45B2-95E3-AFA7E8697505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C646FCD-BA86-45B2-95E3-AFA7E8697505}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C646FCD-BA86-45B2-95E3-AFA7E8697505}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C646FCD-BA86-45B2-95E3-AFA7E8697505}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2C9E834C-D65A-427B-8473-EEAF5CA657A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C9E834C-D65A-427B-8473-EEAF5CA657A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C9E834C-D65A-427B-8473-EEAF5CA657A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C9E834C-D65A-427B-8473-EEAF5CA657A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBDD3E7-B8CB-4043-810D-7FA337416921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBDD3E7-B8CB-4043-810D-7FA337416921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBDD3E7-B8CB-4043-810D-7FA337416921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBDD3E7-B8CB-4043-810D-7FA337416921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017ED5E3-9DAC-4759-B440-3C250D91537C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017ED5E3-9DAC-4759-B440-3C250D91537C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017ED5E3-9DAC-4759-B440-3C250D91537C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017ED5E3-9DAC-4759-B440-3C250D91537C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
