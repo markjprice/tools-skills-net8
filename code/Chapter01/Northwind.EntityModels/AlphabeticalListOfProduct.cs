@@ -6,14 +6,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Northwind.EntityModels;
 
-[Index("CategoryId", Name = "CategoriesProducts")]
-[Index("CategoryId", Name = "CategoryId")]
-[Index("ProductName", Name = "ProductName")]
-[Index("SupplierId", Name = "SupplierId")]
-[Index("SupplierId", Name = "SuppliersProducts")]
-public partial class Product
+[Keyless]
+public partial class AlphabeticalListOfProduct
 {
-    [Key]
     public int ProductId { get; set; }
 
     [StringLength(40)]
@@ -37,14 +32,6 @@ public partial class Product
 
     public bool Discontinued { get; set; }
 
-    [ForeignKey("CategoryId")]
-    [InverseProperty("Products")]
-    public virtual Category? Category { get; set; }
-
-    [InverseProperty("Product")]
-    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
-
-    [ForeignKey("SupplierId")]
-    [InverseProperty("Products")]
-    public virtual Supplier? Supplier { get; set; }
+    [StringLength(15)]
+    public string CategoryName { get; set; } = null!;
 }
