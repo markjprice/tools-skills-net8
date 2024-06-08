@@ -21,7 +21,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 ## Chapters and code solutions
 
 **Introduction**
-- Chapter 1 Introducing Tools and Skills for .NET
+- Chapter 1 Introducing Tools and Skills for .NET: [code/Chapter01](code/Chapter01)
 
 **Tools**
 - Chapter 2 Making the Most of the Tools in your Code Editor: [code/Chapter02](code/Chapter02)
