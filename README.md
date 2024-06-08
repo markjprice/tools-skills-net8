@@ -45,15 +45,13 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 16 Cloud-Native Development Using .NET Aspire: [code/Chapter16](code/Chapter16)
 
 **Design**
-- Chapter 17 Design Patterns and Principles: [code/Chapter17](code/Chapter17)
-- Chapter 18 Software and Solution Architecture Foundations: [code/Chapter18](code/Chapter18)
-- Chapter 19 Your Career, Teamwork, and Interviews: [code/Chapter19](code/Chapter19)
+- Chapter 17 Design Patterns and Principles
+- Chapter 18 Software and Solution Architecture Foundations
+- Chapter 19 Your Career, Teamwork, and Interviews
 
-## Code solutions for Visual Studio 2022 and Visual Studio Code
+## Code editors and the solutions
 
-Visual Studio Code now has an extension named **C# Dev Kit** that includes a solution explorer so it can better work with Visual Studio solution files. Visual Studio, JetBrains Rider, and Visual Studio Code + C# Dev Kit can now use the same code solution files and projects for each chapter, found here: [/code](/code). 
-
-> **For Visual Studio Code:** To use the chapter solution files with Visual Studio Code, install the **C# Dev Kit** extension. Then in Visual Studio Code, open the `ChapterNN` folder that contains a `ChapterNN.sln` solution file and wait for the **SOLUTION EXPLORER** pane to appear at the bottom of the **EXPLORER**. You can drag and drop to reorder the panes to put **SOLUTION EXPLORER** at the top. Learn more about C# Dev Kit at the following link: https://devblogs.microsoft.com/visualstudio/announcing-csharp-dev-kit-for-visual-studio-code/
+Visual Studio, JetBrains Rider, and Visual Studio Code + C# Dev Kit can use the same code solution files and projects for each chapter, found here: [/code](/code). 
 
 > **Warning!** If you use multiple code editors to open these solutions, be aware that the build process can conflict. This is because Visual Studio has its own non-standard build server that is different from the standard build server used by .NET SDK CLI. My recommendation is to only have a solution open in one code editor at any time. You should also clean the solutions between opening in different code editors. For example, after closing the solution in one code editor, I delete the `bin` and `obj` folders before then opening in a different code editor.
 
