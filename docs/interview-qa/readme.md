@@ -2,7 +2,7 @@
 
 Now let's review 60 commonly asked questions in .NET software engineer position interviews. 
 
-The 60 items include a question, a good answer, and a poor answer with an explanation of why is poor. You will learn as much from reviewing poor answers as good ones.
+The 60 items include a question, a good answer, and a poor answer with an explanation of why it is poor. You will learn almost as much from reviewing poor answers as good ones.
 
 I encourage you to get access to a whiteboard and ask a friend to read the questions to you. Answer them verbally and record your responses on video to review later. This will force you to practice writing code on a whiteboard in a stressful environment. 
 
