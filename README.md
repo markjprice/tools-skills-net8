@@ -51,7 +51,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 
 ## Code editors and the solutions
 
-Visual Studio, JetBrains Rider, and Visual Studio Code + C# Dev Kit can use the same code solution files and projects for each chapter, found here: [/code](/code). 
+Visual Studio, Rider, and Code + C# Dev Kit can use the same code solution files and projects for each chapter, found here: [/code](/code). 
 
 > **Warning!** If you use multiple code editors to open these solutions, be aware that the build process can conflict. This is because Visual Studio has its own non-standard build server that is different from the standard build server used by .NET SDK CLI. My recommendation is to only have a solution open in one code editor at any time. You should also clean the solutions between opening in different code editors. For example, after closing the solution in one code editor, I delete the `bin` and `obj` folders before then opening in a different code editor.
 
@@ -59,8 +59,8 @@ Visual Studio, JetBrains Rider, and Visual Studio Code + C# Dev Kit can use the 
 
 The appendix and color figures are available to download as PDFs:
 
-- Appendix A, Answers to the Test Your Knowledge Questions: coming July 30, 2024.
-- Color images of the screenshots/diagrams used in this book: coming July 30, 2024.
+- Appendix A, Answers to the Test Your Knowledge Questions: https://packt.link/isUsj
+- Color images of the screenshots/diagrams used in this book: https://packt.link/gbp/9781837635207
 
 ## Important
 
