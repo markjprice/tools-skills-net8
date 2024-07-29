@@ -77,6 +77,7 @@
 - [Sign up for a Microsoft account](https://signup.live.com/)
 - [Identify and customize keyboard shortcuts in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio)
 - [Visual Studio for Mac Retirement Announcement](https://devblogs.microsoft.com/visualstudio/visual-studiofor-mac-retirement-announcement/)
+- [Making Visual Studio a bit more visual](https://devblogs.microsoft.com/visualstudio/making-visual-studio-a-bit-more-visual/)
 
 ## Code
 - [Download Visual Studio Code](https://code.visualstudio.com/)
@@ -351,6 +352,9 @@
 - [Build Intelligent Applications using ChatGPT & Azure Cosmos DB](https://devblogs.microsoft.com/cosmosdb/chatgpt-azure-cosmos-db/)
 - [Using Hugging Face models with the Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/how-to-use-hugging-face-models-with-semantic-kernel/)
 - [Semantic Kernel documentation](https://learn.microsoft.com/en-us/semantic-kernel/)
+- [Planning with Semantic Kernel using Automatic Function Calling](https://devblogs.microsoft.com/semantic-kernel/planning-with-semantic-kernel-using-automatic-function-calling/)
+- [The future of Planners in Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/the-future-of-planners-in-semantic-kernel/)
+- [Model as a Service (MaaS) Available for Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/model-as-a-service-maas-available-for-semantic-kernel/)
 
 ## Local models
 - [.NET 9 tokenizers](https://github.com/dotnet/core/blob/main/release-notes/9.0/preview/preview4/libraries.md#tokenizer-library-enhancements)
