@@ -4,7 +4,7 @@ If you find any mistakes in the first edition, *Tools and Skills for .NET 8 Pros
 
 [**Errata** (0 items)](errata.md): Typos, tool user interface and behavior changes, or mistakes in code that would cause a compilation error that prevents a successful build.
 
-[**Improvements** (1 item)](improvements.md): Changes to text or code that would improve the content. These are optional.
+[**Improvements** (2 items)](improvements.md): Changes to text or code that would improve the content. These are optional.
 
 [**Post-Publication Changes** (0 items)](changes.md): Changes to the functionality or behavior of C#, .NET, code editors, and other tools since final drafts in April 2024.
 
