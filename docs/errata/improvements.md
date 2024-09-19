@@ -1,15 +1,15 @@
-**Improvements** (2 items)
+**Improvements** (3 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Page 6 - Setting up your development environment](#page-6---setting-up-your-development-environment)
 - [Page 24 - Setting up SQL Server and the Northwind database](#page-24---setting-up-sql-server-and-the-northwind-database)
+- [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
 
 # Page 6 - Setting up your development environment
 
-The buller for Visual Studio currently says:
-- Visual Studio: Visual Studio 2022 for Windows. (Visual Studio 2022 for Mac reaches end-of-life
-on August 31, 2024, and is not recommended.)
+The bullet for Visual Studio currently says:
+- Visual Studio: Visual Studio 2022 for Windows. (Visual Studio 2022 for Mac reaches end-of-life on August 31, 2024, and is not recommended.)
 
 In the next edition, I will add a note that you could also use Visual Studio in a virtual machine, or use Microsoft Dev Box: https://azure.microsoft.com/en-us/products/dev-box.
 
@@ -39,3 +39,25 @@ In the next edition, I will add a note similar to the above explaining why Micro
  `dotnet ef dbcontext scaffold "Data Source=HOSTNAME,PORT;Integrated Security=false;User ID=sa;Password=YOUR_PASSWORD;TrustServerCertificate=True;Initial Catalog=Northwind;" Microsoft.EntityFrameworkCore.SqlServer --namespace Northwind.EntityModels --data-annotations`"
 
 In the next edition, *Tools and Skills for .NET 10*, I will add notes about how to use existing SQL Server instances, how to customize the port number to avoid conflicts with existing container images, and tools like Azure Data Studio and websites for generating database connection strings. I will also add a note about trusting the certificate in the connection string too.
+
+# Page 156 - Understanding stack and heap memory
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising an [issue on September 18, 2024](https://github.com/markjprice/tools-skills-net8/issues/5) that led to this improvement.
+
+At the start of the third paragraph, I wrote, "On Windows, for ARM64, x86, and x64 machines, the default stack size is 1 MB." 
+
+This sentence is correct. 
+
+Mark Russinovich is a Microsoft expert and he wrote a deep dive article about memory and threads that is worth reading. You can find it at the following link:
+https://learn.microsoft.com/en-us/archive/blogs/markrussinovich/pushing-the-limits-of-windows-processes-and-threads
+
+Here are some relevant highlights:
+
+![Stack size for the main thread defaults to 1MB](stack-1mb-01.png)
+
+Note that the 1MB limit is a default and that "developers can override these values". The .NET team decided to override the default so that .NET apps have 1.5 MB of stack memory, but this was a "completely accidental change", as you can read about in the following comment to a GitHub issue in the .NET repository: https://github.com/dotnet/runtime/issues/96347#issuecomment-1871528297
+
+"Prior to this change, we have been using the Windows native toolset default before that is 1MB."
+
+If this issue might affect your projects, I recommend reading the following issue: [Migration from .NET Framework 4.7.2 to .NET 8 results in StackOverflowException due to reduced stack size](https://github.com/dotnet/runtime/issues/96347).
+
