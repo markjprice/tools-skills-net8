@@ -59,5 +59,4 @@ Note that the 1MB limit is a default and that "developers can override these val
 
 "Prior to this change, we have been using the Windows native toolset default before that is 1MB."
 
-If this issue might affect your projects, I recommend reading the following issue: [Migration from .NET Framework 4.7.2 to .NET 8 results in StackOverflowException due to reduced stack size](https://github.com/dotnet/runtime/issues/96347).
-
+If this issue might affect your projects, I recommend reading the following issue, especially the comments below from Microsoft employees who made the change from 1MB to 1.5MB: [Migration from .NET Framework 4.7.2 to .NET 8 results in StackOverflowException due to reduced stack size](https://github.com/dotnet/runtime/issues/96347).
