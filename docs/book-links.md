@@ -341,6 +341,7 @@
 - [OpenAI account billing](https://platform.openai.com/account/billing/overview)
 - [OpenAI Playground](https://platform.openai.com/playground?model=gpt-3.5-turbo)
 - [OpenAI usage](https://platform.openai.com/usage)
+- [OpenAI official .NET package](https://github.com/openai/openai-dotnet)
 
 ## Semantic Kernel
 - [Semantic Kernel NuGet package](https://www.nuget.org/packages/Microsoft.SemanticKernel)
