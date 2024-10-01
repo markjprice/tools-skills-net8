@@ -1,10 +1,11 @@
-**Improvements** (3 items)
+**Improvements** (4 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Page 6 - Setting up your development environment](#page-6---setting-up-your-development-environment)
 - [Page 24 - Setting up SQL Server and the Northwind database](#page-24---setting-up-sql-server-and-the-northwind-database)
 - [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
+- [Page 355 - Method injection example](#page-355---method-injection-example)
 
 # Page 6 - Setting up your development environment
 
@@ -60,3 +61,38 @@ Note that the 1MB limit is a default and that "developers can override these val
 "Prior to this change, we have been using the Windows native toolset default before that is 1MB."
 
 If this issue might affect your projects, I recommend reading the following issue, especially the comments below from Microsoft employees who made the change from 1MB to 1.5MB: [Migration from .NET Framework 4.7.2 to .NET 8 results in StackOverflowException due to reduced stack size](https://github.com/dotnet/runtime/issues/96347).
+
+# Page 355 - Method injection example
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on September 29, 2024](https://github.com/markjprice/tools-skills-net8/issues/9).
+
+In the code example, I show a Minimal APIs endpoint defined using `MapGet` that requires a dependency service to be passed as parameter, as shown in the following code:
+```cs
+app.MapGet("/weather", (IWeatherService weatherService) =>
+{
+  return Results.Ok(new { Weather = weatherService.GetWeather() });
+});
+```
+
+Often, the parameter will be decorated with `[FromServices]` but this is not necessary.
+
+You don't always need to use the `[FromServices]` attribute when injecting services into an endpoint. Minimal APIs automatically resolve services from the dependency injection (DI) container if the parameter is of a service type that has been registered in the container. This implicit resolution happens based on the type of the parameter. 
+
+In the code example above, `IWeatherService` will automatically be resolved from the DI container without needing to use `[FromServices]`.
+
+However, if you want to explicitly signal that a parameter is coming from the service container or need to disambiguate in certain situations (for example, if a parameter could come from multiple sources like query strings, route data, or services), you should use `[FromServices]`, as shown in the following code:
+```cs
+app.MapGet("/weather", ([FromServices] IWeatherService weatherService) =>
+{
+  return Results.Ok(new { Weather = weatherService.GetWeather() });
+});
+```
+
+You may want to explicitly use `[FromServices]` in the following cases:
+- **Ambiguity**: If there is ambiguity between where the parameter value comes from, for example, route parameters versus services.
+- **Explicitness**: For code clarity and to signal that a parameter is explicitly being injected from services.
+- **Non-service types**: If the parameter type isn't obviously a service, for example `HttpContext`, ASP.NET Core might not infer it correctly unless you specify `[FromServices]`.
+
+In general, if the type is clearly a service and registered in the DI container, ASP.NET Core will resolve it without the attribute.
+
+In the next edition, I will add this extra explanation.

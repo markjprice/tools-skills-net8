@@ -1,10 +1,11 @@
-**Errata** (3 items)
+**Errata** (4 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Breaking change in Aspire 8.2](#breaking-change-in-aspire-82)
 - [Renaming "Components" to "Integrations" in Aspire 8.2 and later](#renaming-components-to-integrations-in-aspire-82-and-later)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
+- [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
 
 # Breaking change in Aspire 8.2
 
@@ -51,3 +52,10 @@ using (MemoryStream ms = new())
     {
 ...
 ```
+
+# Page 341 - OllamaSharp .NET package
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on September 29, 2024](https://github.com/markjprice/tools-skills-net8/issues/8).
+
+In Step 2, I wrote, "add references to packages for Spectre Console and Ollama" when I should have written, "add references to packages for Spectre Console and OllamaSharp". 
+
