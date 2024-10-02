@@ -1,4 +1,4 @@
-**Errata** (4 items)
+**Errata** (5 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -6,6 +6,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Renaming "Components" to "Integrations" in Aspire 8.2 and later](#renaming-components-to-integrations-in-aspire-82-and-later)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
+- [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 
 # Breaking change in Aspire 8.2
 
@@ -58,4 +59,10 @@ using (MemoryStream ms = new())
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on September 29, 2024](https://github.com/markjprice/tools-skills-net8/issues/8).
 
 In Step 2, I wrote, "add references to packages for Spectre Console and Ollama" when I should have written, "add references to packages for Spectre Console and OllamaSharp". 
+
+# Page 356 - Registering multiple implementations
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 2, 2024](https://github.com/markjprice/tools-skills-net8/issues/10).
+
+In the first statement of the code block, I mis-cased the method name as `AddKeyedsingleton`. It should be `AddKeyedSingleton`.
 
