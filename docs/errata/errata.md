@@ -1,4 +1,4 @@
-**Errata** (6 items)
+**Errata** (7 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -8,6 +8,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
+- [Page 392 - Test methods with parameters](#page-392---test-methods-with-parameters)
 
 # Breaking change in Aspire 8.2
 
@@ -72,4 +73,12 @@ In the first statement of the code block, I mis-cased the method name as `AddKey
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 2, 2024](https://github.com/markjprice/tools-skills-net8/issues/11).
 
 In Step 2 on both pages 388 and 401, I wrote, "treat errors as errors", when I should have written "treat warnings as errors".
+
+# Page 392 - Test methods with parameters
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 2, 2024](https://github.com/markjprice/tools-skills-net8/issues/13).
+
+In the third bullet I wrote, "Decorate the test method with `[ClassData]` and reference a method that represents an `IEnumerable` of arrays of types."
+
+I should have written, "Decorate the test method with `[ClassData]` and reference a class that derives from `TheoryData<T1, T2, ...>` and call the inherited `Add` method in its constructor to add sets of expected parameter and return values."
 
