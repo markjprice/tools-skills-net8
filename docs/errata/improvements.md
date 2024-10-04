@@ -1,4 +1,4 @@
-**Improvements** (4 items)
+**Improvements** (5 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -6,6 +6,7 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 24 - Setting up SQL Server and the Northwind database](#page-24---setting-up-sql-server-and-the-northwind-database)
 - [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
 - [Page 355 - Method injection example](#page-355---method-injection-example)
+- [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
 
 # Page 6 - Setting up your development environment
 
@@ -96,3 +97,17 @@ You may want to explicitly use `[FromServices]` in the following cases:
 In general, if the type is clearly a service and registered in the DI container, ASP.NET Core will resolve it without the attribute.
 
 In the next edition, I will add this extra explanation.
+
+# Page 385 - Naming unit tests
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 2, 2024](https://github.com/markjprice/tools-skills-net8/issues/12).
+
+In this section, I try to explain that although, "[s]ome advocate for a standardized naming scheme for unit test methods, for example, `[MethodName]_
+[Scenario]_[Result]`, ..." "However, adopting a mechanical naming scheme like this is less useful than you might think ..." and therefore that I am NOT recommending that you prefix all your unit test names with `[MethodName]_`.
+
+I also wrote, "Here are three examples of test names that use simple phrases in plain language:
+- `Checkout_fails_when_item_is_out_of_stock`
+- `User_receives_confirmation_email_after_successful_registration`
+- `Login_is_blocked_after_three_failed_attempts`"
+
+In the next edition, I will rewrite this section to make my point clearer, and I will use different examples here to make it clearer that `Checkout_`, `User_`, and `Login_` are NOT method name prefixes.
