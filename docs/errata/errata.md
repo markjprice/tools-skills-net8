@@ -1,4 +1,4 @@
-**Errata** (7 items)
+**Errata** (8 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -9,6 +9,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
 - [Page 392 - Test methods with parameters](#page-392---test-methods-with-parameters)
+- [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
 
 # Breaking change in Aspire 8.2
 
@@ -82,3 +83,8 @@ In the third bullet I wrote, "Decorate the test method with `[ClassData]` and re
 
 I should have written, "Decorate the test method with `[ClassData]` and reference a class that derives from `TheoryData<T1, T2, ...>` and call the inherited `Add` method in its constructor to add sets of expected parameter and return values."
 
+# Page 415 - Generating fake data with Bogus
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 3, 2024](https://github.com/markjprice/tools-skills-net8/issues/14).
+
+In *Table 11.7*, `f.Finance.Currency().Code` should be `Finance.Currency().Code`. I don't know how the extra `f.` got there! 
