@@ -1,4 +1,4 @@
-**Errata** (8 items)
+**Errata** (9 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -10,6 +10,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
 - [Page 392 - Test methods with parameters](#page-392---test-methods-with-parameters)
 - [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
+- [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
 
 # Breaking change in Aspire 8.2
 
@@ -88,3 +89,9 @@ I should have written, "Decorate the test method with `[ClassData]` and referenc
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 3, 2024](https://github.com/markjprice/tools-skills-net8/issues/14).
 
 In *Table 11.7*, `f.Finance.Currency().Code` should be `Finance.Currency().Code`. I don't know how the extra `f.` got there! 
+
+# Page 427 - Walkthrough of an example integration test
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 7, 2024](https://github.com/markjprice/tools-skills-net8/issues/15).
+
+I wrote, "The preceding code is a unit test class named `GetById` ..." when I should have written, "The preceding code is an integration test class named `GetById` ..."
