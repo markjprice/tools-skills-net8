@@ -331,6 +331,7 @@
 # Chapter 9 - Building a Custom LLM-based Chat Service
 
 ## OpenAI
+- [Announcing the stable release of the official OpenAI library for .NET](https://devblogs.microsoft.com/dotnet/announcing-the-stable-release-of-the-official-open-ai-library-for-dotnet/)
 - [Stack Overflow and OpenAI’s partnership](https://stackoverflow.co/company/press/archive/openaipartnership)
 - [OpenAI and Reddit’s partnership](https://openai.com/index/openai-and-redditpartnership/)
 - [Microsoft Designer](https://designer.microsoft.com/)
