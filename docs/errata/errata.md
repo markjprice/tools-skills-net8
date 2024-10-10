@@ -1,4 +1,4 @@
-**Errata** (9 items)
+**Errata** (10 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -11,6 +11,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 392 - Test methods with parameters](#page-392---test-methods-with-parameters)
 - [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
 - [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
+- [Page 509 - Generating tests with the Playwright Inspector](#page-509---generating-tests-with-the-playwright-inspector)
 
 # Breaking change in Aspire 8.2
 
@@ -95,3 +96,10 @@ In *Table 11.7*, `f.Finance.Currency().Code` should be `Finance.Currency().Code`
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 7, 2024](https://github.com/markjprice/tools-skills-net8/issues/15).
 
 I wrote, "The preceding code is a unit test class named `GetById` ..." when I should have written, "The preceding code is an integration test class named `GetById` ..."
+
+# Page 509 - Generating tests with the Playwright Inspector
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 9, 2024](https://github.com/markjprice/tools-skills-net8/issues/16).
+
+In the paths to "start the Playwright Inspector with emulation options like setting a view port size", I typed a slash `/` instead of a dot `.` between the `8` and `0`. For example, I typed `net8/0` instead of `net8.0`. 
+
