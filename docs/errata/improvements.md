@@ -1,4 +1,4 @@
-**Improvements** (5 items)
+**Improvements** (6 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -7,6 +7,7 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
+- [Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container](#page-524---docker-command-line-interface-cli-commands-page-527---configuring-ports-and-running-a-container)
 
 # Page 6 - Setting up your development environment
 
@@ -111,3 +112,30 @@ I also wrote, "Here are three examples of test names that use simple phrases in 
 - `Login_is_blocked_after_three_failed_attempts`"
 
 In the next edition, I will rewrite this section to make my point clearer, and I will use different examples here to make it clearer that `Checkout_`, `User_`, and `Login_` are NOT method name prefixes.
+
+# Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 10, 2024](https://github.com/markjprice/tools-skills-net8/issues/17).
+
+In Table 15.4, I give an example of a Docker command to run an image, as shown in the following command:
+```
+docker run -d -p 8080:80 --name webapp mcr.microsoft.com/dotnet/aspnet:8.0
+```
+Although the example image path is valid (see: https://hub.docker.com/r/microsoft/dotnet-aspnet), that image only contains the ASP.NET Core Runtime without an app, so it's not a useful example. That image is designed to pulled and then added to with your own project. 
+
+A better example would be one that also contain a sample app so that you have something to interact with immediately, as shown in the following command:
+```
+docker run -d -p 8080:80 --name webapp mcr.microsoft.com/dotnet/samples:aspnetapp:8.0
+```
+
+Similarly, on page 527, I show an example of setting ports, as shown in the following command:
+```
+docker run -p 8000:8080 -d --name myaspnetapp mcr.microsoft.com/dotnet/aspnet:latest
+```
+
+Although the specific image used is not important because it's just showing how to set ports, a better example would use the image with an app, as shown in the following command:
+```
+docker run -p 8000:8080 -d --name myaspnetapp mcr.microsoft.com/dotnet/samples:aspnetapp:latest
+```
+
+And on page 528, I show an example of configuring for HTTPS. The example would be better with the sample app image, although again, the point is not the specific image, it's just to show the additional switches for configuring HTTPS.
