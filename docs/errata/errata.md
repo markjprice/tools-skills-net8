@@ -1,4 +1,4 @@
-**Errata** (10 items)
+**Errata** (11 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -12,6 +12,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
 - [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
 - [Page 509 - Generating tests with the Playwright Inspector](#page-509---generating-tests-with-the-playwright-inspector)
+- [Page 579 - Docker versus Podman for containers](#page-579---docker-versus-podman-for-containers)
 
 # Breaking change in Aspire 8.2
 
@@ -103,3 +104,8 @@ I wrote, "The preceding code is a unit test class named `GetById` ..." when I sh
 
 In the paths to "start the Playwright Inspector with emulation options like setting a view port size", I typed a slash `/` instead of a dot `.` between the `8` and `0`. For example, I typed `net8/0` instead of `net8.0`. 
 
+# Page 579 - Docker versus Podman for containers
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 14, 2024](https://github.com/markjprice/tools-skills-net8/issues/20).
+
+**Podman pro** should be **Podman pros**.
