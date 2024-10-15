@@ -1,9 +1,10 @@
-**Improvements** (6 items)
+**Improvements** (7 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Page 6 - Setting up your development environment](#page-6---setting-up-your-development-environment)
 - [Page 24 - Setting up SQL Server and the Northwind database](#page-24---setting-up-sql-server-and-the-northwind-database)
+- [Page 29 - Creating a class library for entity models using SQL Server](#page-29---creating-a-class-library-for-entity-models-using-sql-server)
 - [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
@@ -42,6 +43,22 @@ In the next edition, I will add a note similar to the above explaining why Micro
  `dotnet ef dbcontext scaffold "Data Source=HOSTNAME,PORT;Integrated Security=false;User ID=sa;Password=YOUR_PASSWORD;TrustServerCertificate=True;Initial Catalog=Northwind;" Microsoft.EntityFrameworkCore.SqlServer --namespace Northwind.EntityModels --data-annotations`"
 
 In the next edition, *Tools and Skills for .NET 10*, I will add notes about how to use existing SQL Server instances, how to customize the port number to avoid conflicts with existing container images, and tools like Azure Data Studio and websites for generating database connection strings. I will also add a note about trusting the certificate in the connection string too.
+
+# Page 29 - Creating a class library for entity models using SQL Server
+
+> Thanks to [OpticOrange](https://github.com/OpticOrange) and [P9avel](https://github.com/P9avel) for raising this [issue on October 13, 2024](https://github.com/markjprice/tools-skills-net8/issues/19).
+
+In Step 12, I wrote, "In `Customer.cs`, the `dotnet-ef` tool correctly identified that the `CustomerId` column is the primary key and it is limited to a maximum of five characters, but we also want the values to always be uppercase. So, add a regular expression to validate its primary key value to only allow uppercase Western characters, as shown highlighted in the following code:
+```cs
+[Key]
+[StringLength(5)]
+[RegularExpression("[A-Z]{5}")]
+public string CustomerId { get; set; } = null!;"
+```
+
+The phrase "limited to a maximum of five characters" is implemented by the `dotnet-ef` tool by adding the `[StringLength(5)]`. But what the tool cannot assume is that the rule should be more restrictive than a *maximum*. All `CustomerId` values should be five upper case characters. In the next edition, I will add more text to clarify:
+
+"In `Customer.cs`, the `dotnet-ef` tool identified that the `CustomerId` column is the primary key and it is limited to a maximum of five characters by decorating the property with `[StringLength(5)]`, but the tool did not make any further assumptions. We also want the values to always be uppercase and always exactly five characters. So, add a regular expression to validate its primary key value to only allow five uppercase Western characters, as shown highlighted in the following code:"
 
 # Page 156 - Understanding stack and heap memory
 
