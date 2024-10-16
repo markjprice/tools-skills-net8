@@ -116,8 +116,6 @@ In the paths to "start the Playwright Inspector with emulation options like sett
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 15, 2024](https://github.com/markjprice/tools-skills-net8/issues/21).
 
 I wrote, "First, you create the Builder Interface, with methods to set each of the product’s properties, and a
-Build method to return the constructed product, as shown in the following code:"
+`Build` method to return the constructed product, as shown in the following code:"
 
-But we are building a "user profile", not a "product". In the next edition I will fix this. 
-
-(Also note that the words used here are descriptive, not the name of the class.)
+Both instances of the word "product" should be "Product" because in the context of the Builder pattern, it refers to the term that means the object being created. In the next edition I will fix this. 
