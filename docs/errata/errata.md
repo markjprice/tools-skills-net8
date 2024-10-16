@@ -118,4 +118,4 @@ In the paths to "start the Playwright Inspector with emulation options like sett
 I wrote, "First, you create the Builder Interface, with methods to set each of the product’s properties, and a
 `Build` method to return the constructed product, as shown in the following code:"
 
-Both instances of the word "product" should be "Product" because in the context of the Builder pattern, it refers to the term that means the object being created. In the next edition I will fix this. 
+Both instances of the word "product" should be "Product" because in the context of the Builder pattern, it refers to the term that means the object being built. In the next edition I will fix this. 
