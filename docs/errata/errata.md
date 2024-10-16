@@ -1,4 +1,4 @@
-**Errata** (11 items)
+**Errata** (12 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -13,6 +13,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
 - [Page 509 - Generating tests with the Playwright Inspector](#page-509---generating-tests-with-the-playwright-inspector)
 - [Page 579 - Docker versus Podman for containers](#page-579---docker-versus-podman-for-containers)
+- [Page 622 - Builder pattern example](#page-622---builder-pattern-example)
 
 # Breaking change in Aspire 8.2
 
@@ -109,3 +110,14 @@ In the paths to "start the Playwright Inspector with emulation options like sett
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 14, 2024](https://github.com/markjprice/tools-skills-net8/issues/20).
 
 **Podman pro** should be **Podman pros**.
+
+# Page 622 - Builder pattern example
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 15, 2024](https://github.com/markjprice/tools-skills-net8/issues/21).
+
+I wrote, "First, you create the Builder Interface, with methods to set each of the product’s properties, and a
+Build method to return the constructed product, as shown in the following code:"
+
+But we are building a "user profile", not a "product". In the next edition I will fix this. 
+
+(Also note that the words used here are descriptive, not the name of the class.)
