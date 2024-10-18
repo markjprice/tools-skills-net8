@@ -1,4 +1,4 @@
-**Errata** (12 items)
+**Errata** (13 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -12,6 +12,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
 - [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
 - [Page 509 - Generating tests with the Playwright Inspector](#page-509---generating-tests-with-the-playwright-inspector)
+- [Page 536 - Docker image hierarchy and layers](#page-536---docker-image-hierarchy-and-layers)
 - [Page 579 - Docker versus Podman for containers](#page-579---docker-versus-podman-for-containers)
 - [Page 622 - Builder pattern example](#page-622---builder-pattern-example)
 
@@ -104,6 +105,30 @@ I wrote, "The preceding code is a unit test class named `GetById` ..." when I sh
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 9, 2024](https://github.com/markjprice/tools-skills-net8/issues/16).
 
 In the paths to "start the Playwright Inspector with emulation options like setting a view port size", I typed a slash `/` instead of a dot `.` between the `8` and `0`. For example, I typed `net8/0` instead of `net8.0`. 
+
+# Page 536 - Docker image hierarchy and layers
+
+> Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 11, 2024](https://github.com/markjprice/tools-skills-net8/issues/18).
+
+*Figure 15.7* has multiple mistakes, like Layer 2 had an erroneous `FROM` before `WORKDIR`, so I have created a fixed image here:
+![Figure 15.7](B19588_15_07.png)
+
+I have also made the figure example match the actual `Dockerfile` that you will create on page 542 in Step 4, as shown in the following code:
+```Dockerfile
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
+WORKDIR /Chapter15
+# Copy everything
+COPY . ./
+# Restore as distinct layers
+RUN dotnet restore
+# Build and publish a release
+RUN dotnet publish -c Release -o out
+# Build runtime image
+FROM mcr.microsoft.com/dotnet/runtime:8.0
+WORKDIR /Chapter15
+COPY --from=build-env /Chapter15/out .
+ENTRYPOINT ["dotnet", "AboutMyEnvironment.dll"]
+```
 
 # Page 579 - Docker versus Podman for containers
 
