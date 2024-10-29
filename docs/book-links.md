@@ -90,6 +90,7 @@
 - [PowerShell scripts to install Code extensions](https://github.com/markjprice/tools-skills-net8/tree/main/scripts/extension-scripts)
 
 ## Rider
+- [WebStorm and Rider Are Now Free for Non-Commercial Use](https://blog.jetbrains.com/blog/2024/10/24/webstorm-and-rider-are-now-free-for-non-commercial-use/)
 - [JetBrains Rider](https://www.jetbrains.com/rider/)
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
 - [Build Tools for Visual Studio (and Rider)](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022 )
