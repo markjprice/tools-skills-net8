@@ -507,6 +507,7 @@
 
 # Chapter 16 - Cloud-Native Development Using .NET Aspire
 
+- [Upgrade to .NET Aspire 9.0](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/upgrade-to-aspire-9)
 - [Aspire 9 upcoming features - Twitter 🧵](https://x.com/davidfowl/status/1840969475367326070)
 - [What’s new in .NET Aspire 8.1 for cloud native developers!](https://devblogs.microsoft.com/dotnet/whats-new-in-aspire-8-1/)
 - [Pramesh KC's article](https://dev.to/prameshkc/discovering-thegem-in-net-8-introducing-net-aspire-1mlo)
