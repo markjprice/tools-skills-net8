@@ -21,6 +21,5 @@ WriteLine("Press Ctrl + C to stop.");
 
 while (true)
 {
-  await Task.Delay(TimeSpan.FromSeconds(5));
-  WriteLine(DateTime.Now.ToLongTimeString());
+  await Task.Delay(250);
 }
