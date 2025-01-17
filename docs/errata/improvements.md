@@ -1,4 +1,4 @@
-**Improvements** (7 items)
+**Improvements** (8 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -8,6 +8,7 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 156 - Understanding stack and heap memory](#page-156---understanding-stack-and-heap-memory)
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
+- [Page 411 - Making fluent assertions in unit testing](#page-411---making-fluent-assertions-in-unit-testing)
 - [Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container](#page-524---docker-command-line-interface-cli-commands-page-527---configuring-ports-and-running-a-container)
 
 # Page 6 - Setting up your development environment
@@ -129,6 +130,18 @@ I also wrote, "Here are three examples of test names that use simple phrases in 
 - `Login_is_blocked_after_three_failed_attempts`"
 
 In the next edition, I will rewrite this section to make my point clearer, and I will use different examples here to make it clearer that `Checkout_`, `User_`, and `Login_` are NOT method name prefixes.
+
+# Page 411 - Making fluent assertions in unit testing
+
+In this section, I show how to use the `FluentAssertions` package. At the time of publishing, the latest version of this package was `6.12.0`. 
+
+Since version `8.0.0`, released on January 14, 2025, there has been a license change, as described at the following links: https://fluentassertions.com/releases/#800 and https://github.com/fluentassertions/fluentassertions/pull/2943.
+
+Comments from the owner `dennisdoomen`: "v7 will remain free indefinitely and will still receive critical fixes. v8 will only require a license when you use it in non-commercial projects." (https://github.com/fluentassertions/fluentassertions/pull/2943#issuecomment-2590187813 and https://github.com/fluentassertions/fluentassertions/pull/2943#issuecomment-2590286302)
+
+In the next edition, I will recommend the use of v7.1 or later: https://www.nuget.org/packages/FluentAssertions/7.1.0
+
+Alternatively, there is a v7-forked repo named `AwesomeAssertions`: https://www.nuget.org/packages/AwesomeAssertions/7.0.0. You should be able to replace the package reference and everything will continue to work.
 
 # Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container
 
