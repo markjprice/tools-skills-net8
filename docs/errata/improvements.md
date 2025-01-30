@@ -1,4 +1,4 @@
-**Improvements** (8 items)
+**Improvements** (9 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -9,6 +9,7 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
 - [Page 411 - Making fluent assertions in unit testing](#page-411---making-fluent-assertions-in-unit-testing)
+- [Page 497 - Page navigation and title verification](#page-497---page-navigation-and-title-verification)
 - [Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container](#page-524---docker-command-line-interface-cli-commands-page-527---configuring-ports-and-running-a-container)
 
 # Page 6 - Setting up your development environment
@@ -142,6 +143,29 @@ Comments from the owner `dennisdoomen`: "v7 will remain free indefinitely and wi
 In the next edition, I will recommend the use of v7.1 or later: https://www.nuget.org/packages/FluentAssertions/7.1.0
 
 Alternatively, there is a v7-forked repo named `AwesomeAssertions`: https://www.nuget.org/packages/AwesomeAssertions/7.0.0. You should be able to replace the package reference and everything will continue to work.
+
+# Page 497 - Page navigation and title verification
+
+In Step 5, I wrote, "Navigate to `WebUITests\bin\Debug\net8.0` and, at the command prompt or terminal, install browsers for Playwright to automate, as shown in the following command:"
+```shell
+pwsh playwright.ps1 install
+```
+
+A note links to the official Playwright guide for installing its custom browsers.
+
+> Playwright needs special versions of browser binaries to operate. You must use the Playwright PowerShell script to install these browsers. If you have issues, you can learn more at the following link: https://playwright.dev/dotnet/docs/browsers.
+
+Some readers might get an error, `The command “pwsh” is not recognized.` 
+
+The most likely problem is that PowerShell is not installed properly on their computer (i.e. not installed at all, or installed but not set up so it is found from the command prompt).
+
+In the next edition, I will add extra links to help readers who struggle with this, for example:
+
+**Install PowerShell on Windows, Linux, and macOS**
+https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell
+
+Some of the answers here might help: **getting started instructions dont work** #1865:
+https://github.com/microsoft/playwright-dotnet/issues/1865 
 
 # Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container
 
