@@ -1,10 +1,11 @@
-**Errata** (14 items)
+**Errata** (15 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Breaking change in Aspire 8.2](#breaking-change-in-aspire-82)
 - [Renaming "Components" to "Integrations" in Aspire 8.2 and later](#renaming-components-to-integrations-in-aspire-82-and-later)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
+- [Page 305 - Implementing authentication and authorization](#page-305---implementing-authentication-and-authorization)
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
@@ -62,6 +63,12 @@ using (MemoryStream ms = new())
     {
 ...
 ```
+
+# Page 305 - Implementing authentication and authorization
+
+> Thanks to [OpticOrange](https://github.com/OpticOrange) for raising this [issue on February 9, 2025](https://github.com/markjprice/tools-skills-net8/issues/23).
+
+In Step 11, I wrote `Pa$$word` instead of `Pa$$word`. I made the same mistake in Step 13, and on page 306 in Step 4 and Step 5. 
 
 # Page 341 - OllamaSharp .NET package
 
