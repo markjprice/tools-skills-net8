@@ -6,6 +6,8 @@ Repository for the Packt Publishing book titled "Tools and Skills for .NET 8" by
 
 > *Get the career you want with good practices and patterns to design, debug, and test your solutions*
 
+> **[FAQs](https://github.com/markjprice/markjprice/blob/main/FAQs.md)**
+
 The book published on July 30, 2024. 
 - Amazon page: https://www.amazon.com/Tools-Skills-NET-practices-solutions/dp/183763520X/
 - Packt page: https://www.packtpub.com/product/tools-and-skills-for-net-8/9781837635207
