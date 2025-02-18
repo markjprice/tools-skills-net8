@@ -1,4 +1,4 @@
-**Errata** (15 items)
+**Errata** (16 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -6,6 +6,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Renaming "Components" to "Integrations" in Aspire 8.2 and later](#renaming-components-to-integrations-in-aspire-82-and-later)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
 - [Page 305 - Implementing authentication and authorization](#page-305---implementing-authentication-and-authorization)
+- [Page 331 - Adding session memory and enabling multiple functions](#page-331---adding-session-memory-and-enabling-multiple-functions)
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
@@ -68,7 +69,25 @@ using (MemoryStream ms = new())
 
 > Thanks to [OpticOrange](https://github.com/OpticOrange) for raising this [issue on February 9, 2025](https://github.com/markjprice/tools-skills-net8/issues/23).
 
-In Step 11, I wrote `Pa$$word` instead of `Pa$$word`. I made the same mistake in Step 13, and on page 306 in Step 4 and Step 5. 
+In Step 11, I wrote `Pa$$word` instead of `Pa$$w0rd`. I made the same mistake in Step 13, and on page 306 in Step 4 and Step 5. 
+
+# Page 331 - Adding session memory and enabling multiple functions
+
+> Thanks to [lenara122](https://github.com/lenara122) for raising this [issue on February 18, 2025](https://github.com/markjprice/tools-skills-net8/issues/24).
+
+On page 319, the configuration uses Semantic Kernel package version `1.13.0` which was the current version when writing the book. If you use the latest version available in February 2025, version `1.37.0`, then there are some changes needed to migrate to the newer version, as described at the following link: https://learn.microsoft.com/en-us/semantic-kernel/support/migration/function-calling-migration-guide?pivots=programming-language-csharp.
+
+In Step 2, the statement to set the options, as shown in the following code:
+```cs
+OpenAIPromptExecutionSettings options = new()
+  { ToolCallBehavior = ToolCallBehavior.AutoInvokeKernelFunctions };
+```
+
+Should be updated to the following code:
+```cs
+PromptExecutionSettings options = new()
+  { FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() };
+```
 
 # Page 341 - OllamaSharp .NET package
 
