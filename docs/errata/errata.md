@@ -1,4 +1,4 @@
-**Errata** (17 items)
+**Errata** (18 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -8,6 +8,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
 - [Page 305 - Implementing authentication and authorization](#page-305---implementing-authentication-and-authorization)
 - [Page 331 - Adding session memory and enabling multiple functions](#page-331---adding-session-memory-and-enabling-multiple-functions)
+- [Page 333 - Adding session memory and enabling multiple functions](#page-333---adding-session-memory-and-enabling-multiple-functions)
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
@@ -95,6 +96,14 @@ Should be updated to the following code:
 PromptExecutionSettings options = new()
   { FunctionChoiceBehavior = FunctionChoiceBehavior.Auto() };
 ```
+
+# Page 333 - Adding session memory and enabling multiple functions
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on March 24, 2025](https://github.com/markjprice/tools-skills-net8/issues/26).
+
+After Step 7, I show the output from entering the question, but in the middle of the output, the text highlighted in yellow should be a separate Step 8, as shown in the following figure:
+
+![The text in the yellow box text should be Step 8](page-333.png)
 
 # Page 341 - OllamaSharp .NET package
 
