@@ -1,9 +1,10 @@
-**Errata** (18 items)
+**Errata** (19 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Breaking change in Aspire 8.2](#breaking-change-in-aspire-82)
 - [Renaming "Components" to "Integrations" in Aspire 8.2 and later](#renaming-components-to-integrations-in-aspire-82-and-later)
+- [Page 39 - Making the Most of the Tools in Your Code Editor](#page-39---making-the-most-of-the-tools-in-your-code-editor)
 - [Page 143 - Creating code with objects to view](#page-143---creating-code-with-objects-to-view)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
 - [Page 305 - Implementing authentication and authorization](#page-305---implementing-authentication-and-authorization)
@@ -38,6 +39,12 @@ Learn more about this breaking change at the following link: https://github.com/
 # Renaming "Components" to "Integrations" in Aspire 8.2 and later
 
 The Aspire team has renamed "Components" to "Integrations" in Aspire 8.2 and later. You can learn more at the following link: https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-8-2/.
+
+# Page 39 - Making the Most of the Tools in Your Code Editor
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on March 25, 2025](https://github.com/markjprice/tools-skills-net8/issues/27).
+
+In the first paragraph I wrote, "interactive development environments (IDEs)", when I should have written, "integrated development environments (IDEs)".
 
 # Page 143 - Creating code with objects to view
 
