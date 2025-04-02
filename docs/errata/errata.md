@@ -1,4 +1,4 @@
-**Errata** (19 items)
+**Errata** (20 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -11,6 +11,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 331 - Adding session memory and enabling multiple functions](#page-331---adding-session-memory-and-enabling-multiple-functions)
 - [Page 333 - Adding session memory and enabling multiple functions](#page-333---adding-session-memory-and-enabling-multiple-functions)
 - [Page 341 - OllamaSharp .NET package](#page-341---ollamasharp-net-package)
+- [Page 353 - Constructor injection example](#page-353---constructor-injection-example)
 - [Page 356 - Registering multiple implementations](#page-356---registering-multiple-implementations)
 - [Page 388 - Creating a SUT, Page 401 - Controlling test fixtures](#page-388---creating-a-sut-page-401---controlling-test-fixtures)
 - [Page 392 - Test methods with parameters](#page-392---test-methods-with-parameters)
@@ -117,6 +118,12 @@ After Step 7, I show the output from entering the question, but in the middle of
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on September 29, 2024](https://github.com/markjprice/tools-skills-net8/issues/8).
 
 In Step 2, I wrote, "add references to packages for Spectre Console and Ollama" when I should have written, "add references to packages for Spectre Console and OllamaSharp". 
+
+# Page 353 - Constructor injection example
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on April 2, 2025](https://github.com/markjprice/tools-skills-net8/issues/29).
+
+I wrote, "You want to inject this service into a consumer class, `UserController`," but I should have used the class name `UserRegistrationController` as I did in the code example below the paragraph.
 
 # Page 356 - Registering multiple implementations
 
