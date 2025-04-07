@@ -56,6 +56,7 @@ public class CalculatorUnitTests : IDisposable
   // [InlineData(4, 2, 2)]
   // [InlineData(5, 2, 3)]
   // [ClassData(typeof(AddingNumbersData))]
+  // [ClassData(typeof(AddingNumbersDataTyped))]
   [MemberData(memberName: nameof(GetTestData))]
   public void TestAdding(double expected, 
     double number1, double number2)
