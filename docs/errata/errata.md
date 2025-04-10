@@ -211,4 +211,6 @@ Both instances of the word "product" should be "Product" because in the context 
 
 > Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on April 10, 2025](https://github.com/markjprice/tools-skills-net8/issues/32).
 
-*Figure 18.3* is missing the arrow heads on two lines.
+*Figure 18.3* is missing the arrow heads on two lines. It should look like the following image:
+
+![Flowchart of a basic user login process](B19588_18_03.png)
