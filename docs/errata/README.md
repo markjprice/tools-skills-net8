@@ -13,7 +13,7 @@ All errata and improvements will be included in the 2nd edition for .NET 10 plan
 # Top Contributors
 
 1. [P9avel](https://github.com/P9avel): 11 errata, 4 improvements
-2. [Giuseppe Guerra](https://github.com/giuseppe-guerra): 4 errata
+2. [Giuseppe Guerra](https://github.com/giuseppe-guerra): 5 errata
 3. [OpticOrange](https://github.com/OpticOrange): 1 errata, 1 improvement
 4. [lenara122](https://github.com/lenara122): 1 errata
 5. `automaton` on Discord: 1 improvement
