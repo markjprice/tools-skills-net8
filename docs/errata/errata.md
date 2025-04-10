@@ -1,4 +1,4 @@
-**Errata** (19 items)
+**Errata** (20 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -21,6 +21,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 555 - Cloud-Native Development Using .NET Aspire](#page-555---cloud-native-development-using-net-aspire)
 - [Page 579 - Docker versus Podman for containers](#page-579---docker-versus-podman-for-containers)
 - [Page 622 - Builder pattern example](#page-622---builder-pattern-example)
+- [Page 660 - Example flowchart – a user login process](#page-660---example-flowchart--a-user-login-process)
 
 # Page 39 - Making the Most of the Tools in Your Code Editor
 
@@ -205,3 +206,13 @@ I wrote, "First, you create the Builder Interface, with methods to set each of t
 `Build` method to return the constructed product, as shown in the following code:"
 
 Both instances of the word "product" should be "Product" because in the context of the Builder pattern, it refers to the term that means the object being built. In the next edition I will fix this. 
+
+# Page 660 - Example flowchart – a user login process
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on April 10, 2025](https://github.com/markjprice/tools-skills-net8/issues/32).
+
+In the flowchart markup, I accidently reversed the last two statements that define the direction of two arrows:
+- `F -->|No| D` should be `D -->|No| F`.
+- `G --> D` should be `D --> G`.
+
+*Figure 18.3* is also missing the arrow heads.
