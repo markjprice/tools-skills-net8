@@ -29,11 +29,7 @@ ScenarioProps scenario = Scenario.Create(
   HttpRequestMessage request = Http.CreateRequest(
     "GET", "http://localhost:5131/weatherforecast")
     .WithHeader("Accept", "application/json");
-
-  // Use WithHeader and WithBody to send a JSON payload.
-  // .WithHeader("Content-Type", "application/json")
-  // .WithBody(new StringContent("{ some JSON }", Encoding.UTF8, "application/json"));
-
+  
   Response<HttpResponseMessage> response = await Http.Send(client, request);
 
   return response;
