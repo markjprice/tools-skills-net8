@@ -1,10 +1,11 @@
-**Errata** (20 items)
+**Errata** (21 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
 - [Page 39 - Making the Most of the Tools in Your Code Editor](#page-39---making-the-most-of-the-tools-in-your-code-editor)
 - [Page 143 - Creating code with objects to view](#page-143---creating-code-with-objects-to-view)
 - [Page 285 - Encrypting symmetrically with AES](#page-285---encrypting-symmetrically-with-aes)
+- [Page 288 - Encrypting symmetrically with AES](#page-288---encrypting-symmetrically-with-aes)
 - [Page 305 - Implementing authentication and authorization](#page-305---implementing-authentication-and-authorization)
 - [Page 331 - Adding session memory and enabling multiple functions](#page-331---adding-session-memory-and-enabling-multiple-functions)
 - [Page 333 - Adding session memory and enabling multiple functions](#page-333---adding-session-memory-and-enabling-multiple-functions)
@@ -61,6 +62,38 @@ using (MemoryStream ms = new())
       ms, transformer, CryptoStreamMode.Write))
     {
 ...
+```
+
+# Page 288 - Encrypting symmetrically with AES
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on May 15, 2025](https://github.com/markjprice/tools-skills-net8/issues/33).
+
+In Step 10, the output includes a `WARNING` but it shouldn't because the key and IV took 107 milliseconds to generate and the warning should only output if it takes less than 100 milliseconds:
+```
+Enter a message that you want to encrypt: Hello Bob
+Enter a password: secret
+PBKDF2 algorithm: SHA256, Iteration count: 150,000
+107 milliseconds to generate Key and IV.
+WARNING: The elapsed time to generate the Key and IV may be too short to
+provide a secure encryption key.
+Encryption algorithm: AES-256, CBC mode with PKCS7 padding.
+Encrypted text: eWt8sgL7aSt5DC9g74ONEPO7mjd55lXB/MmCZpUsFE0=
+Enter the password: secret
+Decrypted text: Hello Bob
+```
+
+In the next edition, I will fake a lower value in the output and change the message to include the minimum number of milliseconds that triggers the warning:
+```cs
+int minimumMilliseconds = 100;
+
+if (timer.ElapsedMilliseconds < minimumMilliseconds)
+{
+  ConsoleColor previousColor = ForegroundColor;
+  ForegroundColor = ConsoleColor.Red;
+  WriteLine("WARNING: The elapsed time to generate the Key and IV is less than {minimumMilliseconds
+    } milliseconds which is too short to provide a secure encryption key.");
+  ForegroundColor = previousColor;
+}
 ```
 
 # Page 305 - Implementing authentication and authorization
