@@ -151,7 +151,7 @@ Alternatively, there is a v7-forked repo named `AwesomeAssertions`: https://www.
 
 Giuseppe asked "in certain contexts, in order to run benchmarks, is it also necessary to modify the code under examination?"
 
-No, you don't need to modify your code to run benchmarks with BenchmarkDotNet — unless your code is inaccessible, untestable, or relies heavily on side effects or state.Even then, you're usually refactoring to improve testability rather than doing anything BenchmarkDotNet-specific.
+No, you don't need to modify your code to run benchmarks with BenchmarkDotNet — unless your code is inaccessible, untestable, or relies heavily on side effects or state. Even then, you're usually refactoring to improve testability rather than doing anything BenchmarkDotNet-specific.
 
 BenchmarkDotNet is designed to isolate and test performance characteristics of existing code, and its architecture reflects that goal. However, there are a few caveats and edge cases where *some* modification or structural adjustments may be necessary or beneficial.
 
@@ -160,9 +160,9 @@ What you don’t need to do:
 * Unlike profilers, BenchmarkDotNet doesn't require you to inject timers or logging manually into the code you're testing.
 
 When you might need modifications:
-* Your benchmark class needs to access the methods or classes you want to test. This might require making methods public or internal, adding `InternalsVisibleTo("BenchmarkDotNet...")` if you're benchmarking internal members, and avoiding `private` scope unless the benchmark is declared within the same class (which I've done in the book examples, so in the next edition I might move that code into a separate class library project to make it more realistic).
-* Sometimes your code is tightly coupled to dependencies, static classes, or environment-specific state (e.g., file system, network, database). In these cases, for benchmarking purposes, you may want to refactor into **smaller, pure functions** or **extract interfaces**, and use **dependency injection** to mock or replace I/O-heavy dependencies. This isn't BenchmarkDotNet's fault — it's a general principle of testability and applies to benchmarking just like it does to unit testing.
-* The benchmarked method should be written in a way that avoids dead code elimination. If a method doesn’t return a result or the result is unused, the JIT may optimize it away. Use `return` or `Consume()` via `BenchmarkDotNet.Engines.Consumer`, and loop hoisting or constant folding (artificial patterns may not reflect real-world performance if the compiler or runtime optimizes them out). This sometimes means **restructuring trivial samples** to ensure meaningful benchmarking.
+* Your benchmark class needs to access the methods or classes you want to test. This might require making methods `public` or `internal`, adding `InternalsVisibleTo("BenchmarkDotNet...")` if you're benchmarking internal members, and avoiding `private` scope unless the benchmark is declared within the same class (which I've done in the book examples, so in the next edition I might move that code into a separate class library project to make it more realistic).
+* Sometimes your code is tightly coupled to dependencies, static classes, or environment-specific state like file system, network, database. In these cases, for benchmarking purposes, you may want to refactor into smaller, pure functions or extract interfaces, and use dependency injection to mock or replace I/O-heavy dependencies. This isn't BenchmarkDotNet's fault — it's a general principle of testability and applies to benchmarking just like it does to unit testing.
+* The benchmarked method should be written in a way that avoids dead code elimination. If a method doesn’t return a result or the result is unused, the JIT may optimize it away. Use `return` or `Consume()` via `BenchmarkDotNet.Engines.Consumer`, and loop hoisting or constant folding (artificial patterns may not reflect real-world performance if the compiler or runtime optimizes them out). This sometimes means restructuring trivial samples to ensure meaningful benchmarking.
 
 # Page 497 - Page navigation and title verification
 
