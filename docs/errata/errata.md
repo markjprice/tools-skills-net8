@@ -1,4 +1,4 @@
-**Errata** (21 items)
+**Errata** (22 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -17,6 +17,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 406 - Libraries for mocking](#page-406---libraries-for-mocking)
 - [Page 415 - Generating fake data with Bogus](#page-415---generating-fake-data-with-bogus)
 - [Page 427 - Walkthrough of an example integration test](#page-427---walkthrough-of-an-example-integration-test)
+- [Page 459 - BenchmarkDotNet for benchmarking performance](#page-459---benchmarkdotnet-for-benchmarking-performance)
 - [Page 509 - Generating tests with the Playwright Inspector](#page-509---generating-tests-with-the-playwright-inspector)
 - [Page 536 - Docker image hierarchy and layers](#page-536---docker-image-hierarchy-and-layers)
 - [Page 555 - Cloud-Native Development Using .NET Aspire](#page-555---cloud-native-development-using-net-aspire)
@@ -178,6 +179,19 @@ In *Table 11.7*, `f.Finance.Currency().Code` should be `Finance.Currency().Code`
 > Thanks to [P9avel](https://github.com/P9avel) for raising this [issue on October 7, 2024](https://github.com/markjprice/tools-skills-net8/issues/15).
 
 I wrote, "The preceding code is a unit test class named `GetById` ..." when I should have written, "The preceding code is an integration test class named `GetById` ..."
+
+# Page 459 - BenchmarkDotNet for benchmarking performance
+
+> Thanks to **Giuseppe Guerra** / `giuse_guerra` who asked a question about this in the book's Discord channel on May 22, 2025.
+
+In Step 2, in `FibonacciBenchmarks.cs`, the code for the `public static long BinetsFibonacci(long n)` is `static` when it does not need to be. You can remove the `static` keyword.
+
+If the test results show that the Binet's algorithm is so efficient that it cannot be measured by showing the following error: `ZeroMeasurement FibonacciBenchmarks.BinetsTest: Default -> The method duration is indistinguishable from the empty method duration`, then try increasing the value of `n`:
+```cs
+private const long n = 10; // You can increment this value if the test result is 0 ns.
+```
+
+I will also add a new section on page 458 before the start of the new steps.
 
 # Page 509 - Generating tests with the Playwright Inspector
 
