@@ -17,7 +17,7 @@ public class FibonacciBenchmarks
     return RecursiveFibonacci(n);
   }
 
-  public static long BinetsFibonacci(long n)
+  public long BinetsFibonacci(long n)
   {
     double sqrt5 = Math.Sqrt(5);
     double phi = (1 + sqrt5) / 2;
