@@ -1,4 +1,4 @@
-**Improvements** (9 items)
+**Improvements** (10 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -9,6 +9,7 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
 - [Page 411 - Making fluent assertions in unit testing](#page-411---making-fluent-assertions-in-unit-testing)
+- [Page 453 - BenchmarkDotNet for benchmarking performance](#page-453---benchmarkdotnet-for-benchmarking-performance)
 - [Page 497 - Page navigation and title verification](#page-497---page-navigation-and-title-verification)
 - [Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container](#page-524---docker-command-line-interface-cli-commands-page-527---configuring-ports-and-running-a-container)
 
@@ -143,6 +144,25 @@ Comments from the owner `dennisdoomen`: "v7 will remain free indefinitely and wi
 In the next edition, I will recommend the use of v7.1 or later: https://www.nuget.org/packages/FluentAssertions/7.1.0
 
 Alternatively, there is a v7-forked repo named `AwesomeAssertions`: https://www.nuget.org/packages/AwesomeAssertions/7.0.0. You should be able to replace the package reference and everything will continue to work.
+
+# Page 453 - BenchmarkDotNet for benchmarking performance
+
+> Thanks to **Giuseppe Guerra** / `giuse_guerra` who asked a question about this in the book's Discord channel on May 22, 2025.
+
+Giuseppe asked "in certain contexts, in order to run benchmarks, is it also necessary to modify the code under examination?"
+
+No, you don't need to modify your code to run benchmarks with BenchmarkDotNet — unless your code is inaccessible, untestable, or relies heavily on side effects or state.Even then, you're usually refactoring to improve testability rather than doing anything BenchmarkDotNet-specific.
+
+BenchmarkDotNet is designed to isolate and test performance characteristics of existing code, and its architecture reflects that goal. However, there are a few caveats and edge cases where *some* modification or structural adjustments may be necessary or beneficial.
+
+What you don’t need to do:
+* You do not need to rewrite your core business logic or algorithms to use BenchmarkDotNet. It works by creating a separate benchmarking project or class that invokes your code.
+* Unlike profilers, BenchmarkDotNet doesn't require you to inject timers or logging manually into the code you're testing.
+
+When you might need modifications:
+* Your benchmark class needs to access the methods or classes you want to test. This might require making methods public or internal, adding `InternalsVisibleTo("BenchmarkDotNet...")` if you're benchmarking internal members, and avoiding `private` scope unless the benchmark is declared within the same class (which I've done in the book examples, so in the next edition I might move that code into a separate class library project to make it more realistic).
+* Sometimes your code is tightly coupled to dependencies, static classes, or environment-specific state (e.g., file system, network, database). In these cases, for benchmarking purposes, you may want to refactor into **smaller, pure functions** or **extract interfaces**, and use **dependency injection** to mock or replace I/O-heavy dependencies. This isn't BenchmarkDotNet's fault — it's a general principle of testability and applies to benchmarking just like it does to unit testing.
+* The benchmarked method should be written in a way that avoids dead code elimination. If a method doesn’t return a result or the result is unused, the JIT may optimize it away. Use `return` or `Consume()` via `BenchmarkDotNet.Engines.Consumer`, and loop hoisting or constant folding (artificial patterns may not reflect real-world performance if the compiler or runtime optimizes them out). This sometimes means **restructuring trivial samples** to ensure meaningful benchmarking.
 
 # Page 497 - Page navigation and title verification
 
