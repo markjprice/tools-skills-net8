@@ -1,4 +1,4 @@
-**Errata** (22 items)
+**Errata** (23 items)
 
 If you find any mistakes, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -24,6 +24,7 @@ If you find any mistakes, then please [raise an issue in this repository](https:
 - [Page 579 - Docker versus Podman for containers](#page-579---docker-versus-podman-for-containers)
 - [Page 622 - Builder pattern example](#page-622---builder-pattern-example)
 - [Page 660 - Example flowchart – a user login process](#page-660---example-flowchart--a-user-login-process)
+- [Page 685 - Interviewing at the big companies](#page-685---interviewing-at-the-big-companies)
 
 # Page 39 - Making the Most of the Tools in Your Code Editor
 
@@ -261,3 +262,9 @@ Both instances of the word "product" should be "Product" because in the context 
 *Figure 18.3* is missing the arrow heads on two lines. It should look like the following image:
 
 ![Flowchart of a basic user login process](B19588_18_03.png)
+
+# Page 685 - Interviewing at the big companies
+
+> Thanks to [Giuseppe Guerra](https://github.com/giuseppe-guerra) for raising this [issue on June 10, 2025](https://github.com/markjprice/tools-skills-net8/issues/34).
+
+In *Table 19.2*, I misspelled the founder of Facebook's name. It should be **Zuckerberg**.
