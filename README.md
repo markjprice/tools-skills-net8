@@ -14,7 +14,7 @@ The book published on July 30, 2024.
 
 # Free PDF of the book and how to contact the publisher Packt
 
-If you have purchased the paperback or Kindle edition, then you can request a free PDF copy and its supplementary content (like *Appendix - Answers to the Test Your Knowledge Questions* and Graphics Bundle PDF) at the following link: https://packt.link/supplementary-content-9781837635207. 
+If you have purchased the paperback or Kindle edition, then you can request a free PDF copy and its supplementary content (like *Appendix - Answers to the Test Your Knowledge Questions* and Graphics Bundle PDF) at the following link: https://packt.link/supplementary-content/9781837635207. 
 
 For questions about book pricing, distribution, and so on, please contact the publisher Packt at the following email address: customercare@packt.com
 
@@ -59,7 +59,7 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 19 Your Career, Teamwork, and Interviews
 
 **Appendix**
-- Appendix, Answers to the Test Your Knowledge Questions, is included in the free PDF bundle: https://packt.link/supplementary-content-9781837635207.
+- Appendix, Answers to the Test Your Knowledge Questions, is included in the free PDF bundle: https://packt.link/supplementary-content/9781837635207.
 
 ## Code editors and the solutions
 
