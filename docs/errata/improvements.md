@@ -1,4 +1,4 @@
-**Improvements** (10 items)
+**Improvements** (12 items)
 
 If you have suggestions for improvements, then please [raise an issue in this repository](https://github.com/markjprice/tools-skills-net8/issues) or email me at markjprice (at) gmail.com.
 
@@ -9,6 +9,8 @@ If you have suggestions for improvements, then please [raise an issue in this re
 - [Page 355 - Method injection example](#page-355---method-injection-example)
 - [Page 385 - Naming unit tests](#page-385---naming-unit-tests)
 - [Page 411 - Making fluent assertions in unit testing](#page-411---making-fluent-assertions-in-unit-testing)
+- [Page 433 - Installing the dev tunnel CLI](#page-433---installing-the-dev-tunnel-cli)
+- [Page 433 - Exploring a dev tunnel with the CLI and an echo service](#page-433---exploring-a-dev-tunnel-with-the-cli-and-an-echo-service)
 - [Page 453 - BenchmarkDotNet for benchmarking performance](#page-453---benchmarkdotnet-for-benchmarking-performance)
 - [Page 497 - Page navigation and title verification](#page-497---page-navigation-and-title-verification)
 - [Page 524 - Docker command-line interface (CLI) commands, Page 527 - Configuring ports and running a container](#page-524---docker-command-line-interface-cli-commands-page-527---configuring-ports-and-running-a-container)
@@ -144,6 +146,20 @@ Comments from the owner `dennisdoomen`: "v7 will remain free indefinitely and wi
 In the next edition, I will recommend the use of v7.1 or later: https://www.nuget.org/packages/FluentAssertions/7.1.0
 
 Alternatively, there is a v7-forked repo named `AwesomeAssertions`: https://www.nuget.org/packages/AwesomeAssertions/7.0.0. You should be able to replace the package reference and everything will continue to work.
+
+# Page 433 - Installing the dev tunnel CLI
+
+> Thanks to [Paul Marangoni](https://github.com/pmarangoni) for raising [this issue on May 7, 2025](https://github.com/markjprice/web-dev-net9/issues/51).
+
+In the next edition, if the CLI is still in preview, then I will add a warning:
+
+> **Warning!** This feature is currently in public preview. The CLI might have bugs that are introduced and fixed over time. Command names and options may change in future releases. The preview version is provided without a service-level agreement, and it's not recommended for production workloads. Certain features might not be supported or might have constrained capabilities. Read the latest about the CLI at the following link: https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/cli-commands
+
+# Page 433 - Exploring a dev tunnel with the CLI and an echo service
+
+After Step 2, I will add a note:
+
+> If you get error, `Missing wamcompat_id_token in WAM case`, then try using device flow to login instead, as shown in the following command: `devtunnel login -d`
 
 # Page 453 - BenchmarkDotNet for benchmarking performance
 
